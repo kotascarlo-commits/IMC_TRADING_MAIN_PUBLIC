@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+# Hinweis: In manchen sandboxten Umgebungen hat pytest keinen Schreibzugriff
+# auf den Standard-Temp-Ordner. Falls "pytest" mit einem PermissionError auf
+# AppData/Local/Temp/pytest-of-* fehlschlaegt, einmalig mit einem lokalen
+# Temp-Ordner starten: pytest --basetemp=.pytest_tmp

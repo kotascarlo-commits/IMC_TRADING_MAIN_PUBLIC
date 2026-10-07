@@ -1,0 +1,59 @@
+{
+  "version": "VR12-research",
+  "state": "RUNNING_BALANCED_RESEARCH",
+  "updated": "2026-09-25T08:23:48.516529+00:00",
+  "authority": "0%",
+  "forward_only": true,
+  "source_lane": "WATCH",
+  "communication": "UDP_DIRECT_PLUS_DB_FALLBACK",
+  "direct_bus": {
+    "rx": 1,
+    "rx_errors": 0,
+    "tx_errors": 0,
+    "last_ms": 5.754,
+    "avg_ms": 5.754,
+    "last_at": "2026-09-25T08:23:48.387941+00:00"
+  },
+  "variants": {
+    "SAFE100_VR12": {
+      "seen": 8565,
+      "accepted": 35,
+      "result": {
+        "n": 1,
+        "wins": 0,
+        "losses": 1,
+        "hit_rate_pct": 0.0,
+        "pf_net": 0.0,
+        "net_pnl_usd": -101.4046,
+        "top3_profit_share_pct": 100
+      }
+    },
+    "SAFE100_VR10_SHADOW": {
+      "seen": 0,
+      "accepted": 0,
+      "result": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "hit_rate_pct": 0,
+        "pf_net": null,
+        "net_pnl_usd": 0,
+        "top3_profit_share_pct": 100
+      }
+    },
+    "SAFE100_VR08_SHADOW": {
+      "seen": 0,
+      "accepted": 0,
+      "result": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "hit_rate_pct": 0,
+        "pf_net": null,
+        "net_pnl_usd": 0,
+        "top3_profit_share_pct": 100
+      }
+    }
+  },
+  "last_error": null
+}

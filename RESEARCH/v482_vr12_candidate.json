@@ -1,0 +1,17 @@
+{
+  "version": "4.8.2-route-forward",
+  "trade_id": 34,
+  "mint": "DDTaUuhJW5NN4BAFgt8xyEasiY9kX14ss566s5tapump",
+  "signal_at": "2026-09-25T07:27:24.792224+00:00",
+  "prepared_at": "2026-09-25T07:27:25.714814+00:00",
+  "input_lamports": 463590,
+  "expected_buy_out_raw": "786657",
+  "buy_impact": 0.0,
+  "pre_sell_impact": 0.0061390358125416825,
+  "pre_roundtrip_loss": 0.005988049785370708,
+  "buy_fee_lamports_est": 5000,
+  "rent_locked_lamports": 1513840,
+  "jupiter_build_passed": true,
+  "local_tx_simulation": false,
+  "broadcast": false
+}

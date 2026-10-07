@@ -1,0 +1,256 @@
+﻿{
+    "cleaned_at":  "2026-09-24T20:40:14.6870249+02:00",
+    "canonical_root":  "C:\\Users\\<local-user>\\Desktop\\IMC_TRADING_MAIN",
+    "rule":  "Remove legacy top-level Mykonos/IMC_TRADING locations after successful migration",
+    "count":  62,
+    "items":  [
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\IMC_TRADING"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MykonosControl"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_AI_CAUSAL_LEARNING"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_CHAMPION_CHALLENGER_V2"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_CONTROL"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_CONTROL_BRIDGE"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_CONTROL_WATCHDOG"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_LONG_FORWARD_EVALUATOR_V1"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_NIGHT_RUNS"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE10_META_BRAIN"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_ALLDATA_SNAPSHOT_V1"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_COLLECTOR_WATCHDOG"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_DATASET_EXPORT"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_FEATURE_AUDIT"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_LONG_PATH_CALIBRATION"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_PARALLEL_LOSSLAB"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_REGIMEGUARD_CHALLENGER"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_TAILSHIELD_CHALLENGER"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_TRUE_FORWARD_GATE"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE11_TRUE_FORWARD_TRADE_AUDIT"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE1_WORLD_MODEL"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE2_SIM_FACTORY"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE3_PROBABILITY_PRUNING"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE4_NEURAL_MOE"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE5_COMBINATION_LEARNER"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE6_CAUSAL_CONFORMAL"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE7_X_INTERFACE"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE8_NEWS_INTERFACE"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_PHASE9_EVENT_GRAPH"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_UNIFIED_DASHBOARD"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_X_PUBLIC_WATCHER_V3"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_X_PUBLIC_WATCHER_V311_STABLE"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_X_PUBLIC_WATCHER_V312_READER"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_X_PUBLIC_WATCHER_V32"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\AppData\\Local\\MYKONOS_X_WATCHER_V2"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_BRIDGE_AGENT_v1.0"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_CONTROL_BRIDGE_v1.0"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_MANAGED"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_PF2_FORWARD_DASHBOARD_V1"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_PF2_FORWARD_STATIC_V1"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\Mykonos_v0.8.13a_ALWAYS_RUNNING_ALWAYS_LEARNING_FIXED"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_vNEXT_0.10_PROSPECTIVE_INSTRUMENTATION"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_vNEXT_0.9.1_CAUSAL_CHALLENGER_LAB"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_CONNECT"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_HEADLESS_V3"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_IMPORT"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_SYNDICATION_PROBE.json"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_UNIFIED_DASHBOARD_v1_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.0_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.1_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.2_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.3_CHROME_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.4_CHROME_DIAGNOSTIC_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.5_CHROME_AUTOCOOKIE_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.6_SINGLE_WINDOW_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_BROWSER_WATCHER_v2.0.7_LOGIN_GATE_20260913.zip"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_CONNECT_READY.json"
+                  },
+                  {
+                      "type":  "file",
+                      "path":  "C:\\Users\\<local-user>\\Downloads\\MYKONOS_X_HEADLESS_V3.zip"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Documents\\MYKONOS_ARCHIVE"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Documents\\MYKONOS_SHARED"
+                  },
+                  {
+                      "type":  "directory",
+                      "path":  "C:\\Users\\<local-user>\\Documents\\MYKONOS_X_BROWSER_WATCHER_v2"
+                  }
+              ]
+}

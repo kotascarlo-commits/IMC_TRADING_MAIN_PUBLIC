@@ -1,0 +1,49 @@
+{
+  "project": "IMC Trading",
+  "milestone": "V4.8_DOUBLE_SIM_REAL_VALIDATION",
+  "date": "2026-09-24",
+  "canonical_execution_lane": "IMC_EXECUTION_BUILD_PARITY_v4.8.0",
+  "status": "VALIDATED_TWICE",
+  "wallet_free_sol_after_validation": 0.002191484,
+  "validation_runs": [
+    {
+      "run": 1,
+      "buy_signature": "axQrTTwo9WsLcdmZ9sDpcCjZESBxc36UQtU87drHYnRZh4hUiuodaDsWRirUEWjXR9Ug1UfEzRXr3f4tQsZgRTd",
+      "sell_signature": "2x6hEumxit9CDMuUJSv9LGp5w72coEMqKNiXJjRvWtDHHmibC2MxkhTUW5zwRdTxt7kNZb2AfTZNhZXuZJq3H3Sz",
+      "result": "BUY+SELL confirmed; rent lifecycle and provisional fill issue exposed and corrected"
+    },
+    {
+      "run": 2,
+      "buy_signature": "516VebuCofszpYugp2YQPcbkZAWwT5vWXuVNhtbdA3vbbWxeF1KpbJDuv8DgHfj1nU7s5DEGGLL2a1s4SPo52Ks3",
+      "sell_signature": "L4GKW11MJjX43ANfgvt4wLV6aX9CE2czmugmuSe5sobpcvYLmnuiU93PkGx9b5WJdGcuAiaKYq7TMre9PXzizN5",
+      "buy_fill_exact": true,
+      "buy_fee_exact": true,
+      "buy_compute_exact": true,
+      "buy_wallet_delta_exact": true,
+      "sell_output_exact": true,
+      "sell_fee_exact": true,
+      "sell_compute_exact": true,
+      "sell_wallet_delta_exact": true,
+      "sell_token_delta_exact": true
+    }
+  ],
+  "validated_model": {
+    "jupiter_path": "JUPITER_V2_BUILD_FAST",
+    "rent_model": "LOCKED_UNTIL_EXPLICIT_ACCOUNT_CLOSE",
+    "entry_fill_source": "LOCAL_SOLANA_SIM_TOKEN_ACCOUNT_DELTA",
+    "legacy_executor_hardlocked": true
+  },
+  "live_state": {
+    "autonomous_live_allowed": false,
+    "authority": "0%",
+    "broadcast": false,
+    "reason": "WAITING_FOR_IMC_PERFORMANCE_TARGETS"
+  },
+  "next_phase": {
+    "name": "OPTIMIZE_IMC_ON_CALIBRATED_SIMULATION",
+    "profit_factor_min": 2.0,
+    "hit_rate_min_pct": 70.0,
+    "max_drawdown_pct": 15.0,
+    "top3_profit_share_max_pct": 25.0
+  }
+}

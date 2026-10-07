@@ -1,0 +1,24 @@
+﻿{
+    "run":  "BASELINE_200_FROZEN",
+    "started_at":  "2026-09-24T18:58:52.8945061Z",
+    "target_closed":  200,
+    "script_sha256":  "54A5D9DA4CC350DF34DA19EC710A6B172533AE044F212E799AFE74A41EEFAA0A",
+    "authority":  "0%",
+    "live_execution":  false,
+    "optimization_during_run":  false,
+    "rules":  {
+                  "position_fraction":  0.1,
+                  "max_dd":  0.15,
+                  "pre_max_side":  0.04,
+                  "pre_max_roundtrip":  0.06,
+                  "sell_max_impact":  0.06,
+                  "fresh_sec":  2,
+                  "max_hold_sec":  180
+              },
+    "targets":  {
+                    "pf_min":  2,
+                    "hit_rate_min_pct":  70,
+                    "max_dd_pct":  15,
+                    "top3_max_pct":  25
+                }
+}

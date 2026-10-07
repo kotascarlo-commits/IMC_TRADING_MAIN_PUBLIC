@@ -1,0 +1,306 @@
+{
+  "source": "C:\\Users\\<local-user>\\Desktop\\IMC_TRADING_MAIN\\CORE\\data\\imc-main.db",
+  "started_utc": "2026-10-02T09:51:39.395290+00:00",
+  "sqlite_version": "3.50.4",
+  "opened_mode": "ro",
+  "wal_included": true,
+  "complete": true,
+  "budgets_seconds": {
+    "query": 120.0,
+    "total": 240.0,
+    "lock": 1.0
+  },
+  "files_before": {
+    "measured_utc": "2026-10-02T09:51:39.395309+00:00",
+    "outside_sql_snapshot": true,
+    "files": {
+      "imc-main.db": {
+        "bytes": 37475799040,
+        "mtime_ns": 1790889753180105900
+      },
+      "imc-main.db-wal": {
+        "bytes": 11906832,
+        "mtime_ns": 1790889753249710600
+      },
+      "imc-main.db-shm": {
+        "bytes": 32768,
+        "mtime_ns": 1790934572079938800
+      }
+    }
+  },
+  "errors": [],
+  "tables": {
+    "account_state": {
+      "row_count": 1,
+      "timestamp_range": null
+    },
+    "cookie_ledger": {
+      "row_count": 6050634,
+      "timestamp_range": {
+        "column": "issued_at",
+        "min": "2026-09-05T00:01:02.047159+00:00",
+        "max": "2026-09-25T07:50:48.997492+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    },
+    "decisions": {
+      "row_count": 12246427,
+      "timestamp_range": {
+        "column": "captured_at",
+        "min": "2026-09-04T23:59:46.709050+00:00",
+        "max": "2026-10-01T21:22:30.883386+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    },
+    "learning_outcomes": {
+      "row_count": 6050634,
+      "timestamp_range": {
+        "column": "measured_at",
+        "min": "2026-09-04T23:59:46.709050+00:00",
+        "max": "2026-09-25T07:48:31.348307+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    },
+    "learning_predictions": {
+      "row_count": 16162190,
+      "timestamp_range": {
+        "column": "predicted_at",
+        "min": "2026-09-04T23:59:46.709050+00:00",
+        "max": "2026-10-01T21:22:26.747826+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    },
+    "model_registry": {
+      "row_count": 62,
+      "timestamp_range": null
+    },
+    "outcomes": {
+      "row_count": 22854,
+      "timestamp_range": {
+        "column": "measured_at",
+        "min": "2026-09-05T00:11:46.755860+00:00",
+        "max": "2026-09-14T09:50:32.628345+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    },
+    "positions": {
+      "row_count": 82,
+      "timestamp_range": {
+        "column": "opened_at",
+        "min": "2026-09-05T00:12:31.980131+00:00",
+        "max": "2026-09-14T21:18:06.712735+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    },
+    "schema_meta": {
+      "row_count": 3,
+      "timestamp_range": null
+    },
+    "snapshots": {
+      "row_count": 12247905,
+      "timestamp_range": {
+        "column": "captured_at",
+        "min": "2026-09-04T23:59:46.709050+00:00",
+        "max": "2026-10-01T21:22:30.883386+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    },
+    "trades": {
+      "row_count": 187,
+      "timestamp_range": {
+        "column": "occurred_at",
+        "min": "2026-09-05T00:12:31.980131+00:00",
+        "max": "2026-09-14T21:19:30.292744+00:00",
+        "ordering": "stored ISO text, not normalized chronology"
+      }
+    }
+  },
+  "note": "No data writes; SQLite may alter SHM bookkeeping. dbstat bytes are allocated, not reclaimable.",
+  "schema": [
+    {
+      "type": "index",
+      "name": "idx_decisions_address_time",
+      "table": "decisions",
+      "sql": "CREATE INDEX idx_decisions_address_time ON decisions(address, captured_at DESC)"
+    },
+    {
+      "type": "index",
+      "name": "idx_decisions_captured_address_id",
+      "table": "decisions",
+      "sql": "CREATE INDEX idx_decisions_captured_address_id ON decisions(captured_at,address,id)"
+    },
+    {
+      "type": "index",
+      "name": "idx_learning_address_time",
+      "table": "learning_predictions",
+      "sql": "CREATE INDEX idx_learning_address_time ON learning_predictions(address, predicted_at DESC)"
+    },
+    {
+      "type": "index",
+      "name": "idx_one_open_position",
+      "table": "positions",
+      "sql": "CREATE UNIQUE INDEX idx_one_open_position ON positions(address) WHERE status='OPEN'"
+    },
+    {
+      "type": "index",
+      "name": "idx_snapshots_address_time",
+      "table": "snapshots",
+      "sql": "CREATE INDEX idx_snapshots_address_time ON snapshots(address, captured_at DESC)"
+    },
+    {
+      "type": "index",
+      "name": "sqlite_autoindex_cookie_ledger_1",
+      "table": "cookie_ledger",
+      "sql": null
+    },
+    {
+      "type": "index",
+      "name": "sqlite_autoindex_learning_predictions_1",
+      "table": "learning_predictions",
+      "sql": null
+    },
+    {
+      "type": "index",
+      "name": "sqlite_autoindex_model_registry_1",
+      "table": "model_registry",
+      "sql": null
+    },
+    {
+      "type": "index",
+      "name": "sqlite_autoindex_outcomes_1",
+      "table": "outcomes",
+      "sql": null
+    },
+    {
+      "type": "index",
+      "name": "sqlite_autoindex_schema_meta_1",
+      "table": "schema_meta",
+      "sql": null
+    },
+    {
+      "type": "table",
+      "name": "account_state",
+      "table": "account_state",
+      "sql": "CREATE TABLE account_state (\n  id INTEGER PRIMARY KEY CHECK(id=1), cash_usd REAL NOT NULL,\n  initial_equity REAL NOT NULL, high_water_equity REAL NOT NULL,\n  day_anchor TEXT NOT NULL, day_start_equity REAL NOT NULL,\n  week_anchor TEXT NOT NULL, week_start_equity REAL NOT NULL,\n  kill_reason TEXT\n)"
+    },
+    {
+      "type": "table",
+      "name": "cookie_ledger",
+      "table": "cookie_ledger",
+      "sql": "CREATE TABLE cookie_ledger (\n  id INTEGER PRIMARY KEY, prediction_id INTEGER NOT NULL UNIQUE,\n  model_family TEXT NOT NULL, issued_at TEXT NOT NULL,\n  total_reward REAL NOT NULL, components_json TEXT NOT NULL\n)"
+    },
+    {
+      "type": "table",
+      "name": "decisions",
+      "table": "decisions",
+      "sql": "CREATE TABLE decisions (\n  id INTEGER PRIMARY KEY, captured_at TEXT NOT NULL, address TEXT NOT NULL,\n  symbol TEXT NOT NULL, decision TEXT NOT NULL, score INTEGER NOT NULL,\n  confidence INTEGER NOT NULL, reasons_json TEXT NOT NULL, components_json TEXT NOT NULL\n)"
+    },
+    {
+      "type": "table",
+      "name": "learning_outcomes",
+      "table": "learning_outcomes",
+      "sql": "CREATE TABLE learning_outcomes (\n  prediction_id INTEGER PRIMARY KEY, measured_at TEXT NOT NULL,\n  hit_5 INTEGER NOT NULL, hit_10 INTEGER NOT NULL, hit_25 INTEGER NOT NULL,\n  rug INTEGER NOT NULL, stagnant INTEGER NOT NULL,\n  max_return_pct REAL NOT NULL, min_return_pct REAL NOT NULL, return_pct REAL NOT NULL\n)"
+    },
+    {
+      "type": "table",
+      "name": "learning_predictions",
+      "table": "learning_predictions",
+      "sql": "CREATE TABLE learning_predictions (\n  id INTEGER PRIMARY KEY, model_family TEXT NOT NULL, model_version TEXT NOT NULL,\n  address TEXT NOT NULL, symbol TEXT NOT NULL, predicted_at TEXT NOT NULL,\n  horizon_minutes INTEGER NOT NULL, entry_price REAL NOT NULL, entry_liquidity REAL NOT NULL,\n  p5 REAL NOT NULL, p10 REAL NOT NULL, p25 REAL NOT NULL, p_rug REAL NOT NULL,\n  p_stagnation REAL NOT NULL, uncertainty REAL NOT NULL, expected_utility REAL NOT NULL,\n  reasons_json TEXT NOT NULL,\n  UNIQUE(model_family,model_version,address,predicted_at,horizon_minutes)\n)"
+    },
+    {
+      "type": "table",
+      "name": "model_registry",
+      "table": "model_registry",
+      "sql": "CREATE TABLE model_registry (\n  model_family TEXT NOT NULL, model_version TEXT NOT NULL, created_at TEXT NOT NULL,\n  status TEXT NOT NULL DEFAULT 'SHADOW', config_json TEXT NOT NULL,\n  PRIMARY KEY(model_family, model_version)\n)"
+    },
+    {
+      "type": "table",
+      "name": "outcomes",
+      "table": "outcomes",
+      "sql": "CREATE TABLE outcomes (\n  decision_id INTEGER NOT NULL, horizon_minutes INTEGER NOT NULL,\n  measured_at TEXT NOT NULL, entry_price REAL NOT NULL, exit_price REAL NOT NULL,\n  return_pct REAL NOT NULL, PRIMARY KEY(decision_id, horizon_minutes)\n)"
+    },
+    {
+      "type": "table",
+      "name": "positions",
+      "table": "positions",
+      "sql": "CREATE TABLE positions (\n  id INTEGER PRIMARY KEY, address TEXT NOT NULL, symbol TEXT NOT NULL,\n  status TEXT NOT NULL, entry_price REAL NOT NULL, quantity REAL NOT NULL,\n  remaining_quantity REAL NOT NULL, high_price REAL NOT NULL,\n  opened_at TEXT NOT NULL, closed_at TEXT, realized_pnl REAL NOT NULL DEFAULT 0,\n  partial_1_done INTEGER NOT NULL DEFAULT 0, partial_2_done INTEGER NOT NULL DEFAULT 0\n)"
+    },
+    {
+      "type": "table",
+      "name": "schema_meta",
+      "table": "schema_meta",
+      "sql": "CREATE TABLE schema_meta (\n  key TEXT PRIMARY KEY, value TEXT NOT NULL\n)"
+    },
+    {
+      "type": "table",
+      "name": "snapshots",
+      "table": "snapshots",
+      "sql": "CREATE TABLE snapshots (\n  id INTEGER PRIMARY KEY, captured_at TEXT NOT NULL, address TEXT NOT NULL,\n  symbol TEXT NOT NULL, price_usd REAL NOT NULL, payload_json TEXT NOT NULL\n)"
+    },
+    {
+      "type": "table",
+      "name": "trades",
+      "table": "trades",
+      "sql": "CREATE TABLE trades (\n  id INTEGER PRIMARY KEY, occurred_at TEXT NOT NULL, position_id INTEGER NOT NULL,\n  side TEXT NOT NULL, price REAL NOT NULL, quantity REAL NOT NULL,\n  gross_usd REAL NOT NULL, cost_usd REAL NOT NULL, reason TEXT NOT NULL\n)"
+    },
+    {
+      "type": "trigger",
+      "name": "cookie_ledger_no_delete",
+      "table": "cookie_ledger",
+      "sql": "CREATE TRIGGER cookie_ledger_no_delete BEFORE DELETE ON cookie_ledger\nBEGIN SELECT RAISE(ABORT, 'cookie_ledger is append-only'); END"
+    },
+    {
+      "type": "trigger",
+      "name": "cookie_ledger_no_update",
+      "table": "cookie_ledger",
+      "sql": "CREATE TRIGGER cookie_ledger_no_update BEFORE UPDATE ON cookie_ledger\nBEGIN SELECT RAISE(ABORT, 'cookie_ledger is append-only'); END"
+    },
+    {
+      "type": "trigger",
+      "name": "learning_outcomes_no_delete",
+      "table": "learning_outcomes",
+      "sql": "CREATE TRIGGER learning_outcomes_no_delete BEFORE DELETE ON learning_outcomes\nBEGIN SELECT RAISE(ABORT, 'learning_outcomes are append-only'); END"
+    },
+    {
+      "type": "trigger",
+      "name": "learning_outcomes_no_update",
+      "table": "learning_outcomes",
+      "sql": "CREATE TRIGGER learning_outcomes_no_update BEFORE UPDATE ON learning_outcomes\nBEGIN SELECT RAISE(ABORT, 'learning_outcomes are append-only'); END"
+    },
+    {
+      "type": "trigger",
+      "name": "learning_predictions_no_delete",
+      "table": "learning_predictions",
+      "sql": "CREATE TRIGGER learning_predictions_no_delete BEFORE DELETE ON learning_predictions\nBEGIN SELECT RAISE(ABORT, 'learning_predictions are append-only'); END"
+    },
+    {
+      "type": "trigger",
+      "name": "learning_predictions_no_update",
+      "table": "learning_predictions",
+      "sql": "CREATE TRIGGER learning_predictions_no_update BEFORE UPDATE ON learning_predictions\nBEGIN SELECT RAISE(ABORT, 'learning_predictions are append-only'); END"
+    }
+  ],
+  "page_size": 4096,
+  "page_count": 9149366,
+  "freelist_count": 0,
+  "files_after": {
+    "measured_utc": "2026-10-02T09:53:16.146877+00:00",
+    "outside_sql_snapshot": true,
+    "files": {
+      "imc-main.db": {
+        "bytes": 37475799040,
+        "mtime_ns": 1790889753180105900
+      },
+      "imc-main.db-wal": {
+        "bytes": 11906832,
+        "mtime_ns": 1790889753249710600
+      },
+      "imc-main.db-shm": {
+        "bytes": 32768,
+        "mtime_ns": 1790934699421696300
+      }
+    }
+  },
+  "finished_utc": "2026-10-02T09:53:16.147085+00:00",
+  "elapsed_seconds": 96.752
+}

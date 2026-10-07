@@ -1,0 +1,15 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "risk_reasoning_effort": "high",
+  "max_response_words": 160,
+  "work": {
+    "model": "gpt-6.1-sol",
+    "routine": "low",
+    "standard": "medium",
+    "complex": "high",
+    "sandbox_mode": "danger-full-access",
+    "approval_policy": "never",
+    "approvals_reviewer": "user"
+  }
+}

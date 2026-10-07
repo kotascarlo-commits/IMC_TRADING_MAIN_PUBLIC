@@ -1,0 +1,2291 @@
+{
+  "captured_utc": "2026-10-02T09:01:10.185077+00:00",
+  "baseline_commit": "c395c9dc0d30e9a48716ad566e60a5c7fb588f60",
+  "scope": "All baseline Git-tracked file metadata and local metadata outside dependencies/caches. Literal filename and Python import matches across readable tracked text (including JSON); paths/line numbers only. Not a complete dynamic dependency graph or proof of DEAD. No secret or runtime JSON contents captured.",
+  "tracked": [
+    {
+      "path": ".gitignore",
+      "bytes": 465,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:18",
+        "DOCS/05_operations.md:52"
+      ]
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4515,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CLAUDE.md:4,7,11",
+        "DOCS/00_overview.md:6",
+        "DOCS/05_operations.md:9,51",
+        "DOCS/decisions/0001-cleanup-baseline.md:45",
+        "TOOLS/Ask-IMC-Advisor.ps1:20",
+        "TOOLS/Start-IMC-Advisor.ps1:20",
+        "TOOLS/Start-IMC-Work.ps1:35",
+        "config/README.md:30"
+      ]
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 1450,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/00_overview.md:6",
+        "DOCS/decisions/0001-cleanup-baseline.md:45",
+        "config/README.md:30"
+      ]
+    },
+    {
+      "path": "CORE/START_CORE_WORKER.ps1",
+      "bytes": 1976,
+      "sha256": "54c08a03c8f9c838817d3be27c39fbfe578fbbfae1fa84caa85c11d4a88b4a90",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/02_configuration.md:25,29",
+        "LAUNCHERS/START_IMC.ps1:3",
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:8",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:5",
+        "scripts/dashboard.py:26,39,45",
+        "scripts/db_retention.py:4,17"
+      ]
+    },
+    {
+      "path": "CORE/data/neural-adaptive-state-v0.4.3.json",
+      "bytes": 25400,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/machine_intelligence.py:24"
+      ]
+    },
+    {
+      "path": "CORE/data/neural-adaptive-v0.4.3.json",
+      "bytes": 175376,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/machine_intelligence.py:22"
+      ]
+    },
+    {
+      "path": "CORE/data/neural-champion-v0.4.3.json",
+      "bytes": 62844,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/machine_intelligence.py:23"
+      ]
+    },
+    {
+      "path": "CORE/models/temporal-horizon-challenger-autonomous-v0.8.11.json",
+      "bytes": 33445,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "CORE/models/temporal-shadow-bootstrap-v0.8.2.json",
+      "bytes": 23289,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:488,501"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/__init__.py",
+      "bytes": 23,
+      "sha256": "8fdab7958319adad10ac4acd9e7f44e46357c562ce94381e3a4997f285daeeba",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/__main__.py",
+      "bytes": 61,
+      "sha256": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/__init__.py",
+      "bytes": 154,
+      "sha256": "0b235f738629bd429209300ad36450f4134be2d552d14d3d5fc5159e2980b859",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/__main__.py",
+      "bytes": 3835,
+      "sha256": "e7e83e3f7613ba8bcb2882c846900ee1f00a11e6d0d8298f88697ab0605b3e1e",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/costs.py",
+      "bytes": 1924,
+      "sha256": "ea11b4aad068d3c22073e07004eb8df7de41e193809a0370695ce4d4be6f3303",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/data.py:18",
+        "CORE/mykonos_meme_scout/brain_v1/pipeline.py:13",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:19",
+        "CORE/mykonos_meme_scout/brain_v1/validation.py:14"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/data.py",
+      "bytes": 18199,
+      "sha256": "be5d56bf5c238d8c66f6b45c61b4b0985aae1dad2782f9b84651a9f868f8fdc0",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/doctor.py:7",
+        "CORE/mykonos_meme_scout/brain_v1/exit_training.py:4",
+        "CORE/mykonos_meme_scout/brain_v1/online.py:5",
+        "CORE/mykonos_meme_scout/brain_v1/pipeline.py:14",
+        "CORE/mykonos_meme_scout/brain_v1/refinement.py:8",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:21,65",
+        "CORE/mykonos_meme_scout/brain_v1/simulation_lab.py:9"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/doctor.py",
+      "bytes": 3298,
+      "sha256": "f18501d2f5b4ecf6a1618ab9d3de4fe713a908a4dda0036007fe7a34f525dedd",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/__main__.py:63"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/exit_training.py",
+      "bytes": 2036,
+      "sha256": "996657da710def264032ffbe60377a6395103d154f10c981f2d80aa18a1564b5",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/online.py:6",
+        "CORE/mykonos_meme_scout/brain_v1/refinement.py:9"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/governor.py",
+      "bytes": 12126,
+      "sha256": "fc2ece82e7f10633b823c82ff926b16e39bb475d675107b89b610d2866fc0ddd",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/pipeline.py:15",
+        "CORE/mykonos_meme_scout/brain_v1/refinement.py:11",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:22"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/ledger.py",
+      "bytes": 6604,
+      "sha256": "f19f8e2867c6085e2538ee1b494c7d61d1f5050e9e993c641f6fec356fb3b9c1",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/governor.py:10",
+        "CORE/mykonos_meme_scout/brain_v1/pipeline.py:16",
+        "CORE/mykonos_meme_scout/brain_v1/refinement.py:10",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:23",
+        "CORE/mykonos_meme_scout/store.py:129",
+        "RESEARCH/execution_v483_vr12_route_forward.py:336",
+        "RUNTIME/real_market_execution_v480_build_parity.py:308"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/model.py",
+      "bytes": 25772,
+      "sha256": "1ea9121fb80725fea2e622102403a7b8295fe6e78c5bde323bc5252fcd2cde7e",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/governor.py:58,94",
+        "CORE/mykonos_meme_scout/brain_v1/pipeline.py:17",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:24",
+        "CORE/mykonos_meme_scout/brain_v1/simulation_lab.py:10"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/online.py",
+      "bytes": 2203,
+      "sha256": "5156c17a60df817ac7e1b1bda024e4d7c77e0a73349fd83bb3b9a54d00c8ae12",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/refinement.py:14",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:159,191"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/pipeline.py",
+      "bytes": 13781,
+      "sha256": "1448ec049011ae37716c6de699d38b3cf8de06244aa769d7fbfecf07d031eafd",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/__main__.py:35",
+        "CORE/mykonos_meme_scout/brain_v1/refinement.py:12",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:25",
+        "CORE/mykonos_meme_scout/brain_v1/simulation_lab.py:11"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/refinement.py",
+      "bytes": 4675,
+      "sha256": "e7b67b15732b5dbd3bb1c45ecc9229411b33cafd607199127018d0932c3c0e5b",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/__main__.py:55"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/runtime.py",
+      "bytes": 31929,
+      "sha256": "fbf0ecb2382f7bef053f4ebba8612a7915190df2b62892c3a009bbc38c208d99",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/__main__.py:42,49,52",
+        "CORE/mykonos_meme_scout/brain_v1/doctor.py:54",
+        "CORE/mykonos_meme_scout/brain_v1/refinement.py:13"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/safety.py",
+      "bytes": 3127,
+      "sha256": "59e093d397c0eeea166715935f8144648b8f0e109d42a2aa36ddb16d6c93155f",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/data.py:103",
+        "CORE/mykonos_meme_scout/brain_v1/doctor.py:8",
+        "CORE/mykonos_meme_scout/brain_v1/governor.py:11",
+        "CORE/mykonos_meme_scout/brain_v1/pipeline.py:18",
+        "DOCS/decisions/0001-cleanup-baseline.md:93"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/simulation_lab.py",
+      "bytes": 3107,
+      "sha256": "cc6bb3d12256a0851c135e5f21de1a608329d1445012df534fb1645c49bcde2f",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/__main__.py:46"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/brain_v1/validation.py",
+      "bytes": 12251,
+      "sha256": "93228d11a2a3857d3c01f20bf508c2b2ee04e1dae2ee17e58c0cbad2176d2549",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/governor.py:12",
+        "CORE/mykonos_meme_scout/brain_v1/pipeline.py:19",
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:26",
+        "CORE/mykonos_meme_scout/brain_v1/safety.py:5"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/causal_learning.py",
+      "bytes": 29922,
+      "sha256": "19e91aecd34dd5e304006b367e336e64cb110a507aaaff9b305c5a210f3e0b95",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/machine_intelligence.py:14"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/cli.py",
+      "bytes": 56774,
+      "sha256": "901f166f7a2587d53a8b44bfb93f4a5011aa1c11dc7d11d67500cf61d3f8b970",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/__main__.py:1",
+        "DOCS/01_architecture.md:61",
+        "DOCS/decisions/0001-cleanup-baseline.md:30"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/config.py",
+      "bytes": 10730,
+      "sha256": "8bd9b575fad632f5f2ee106d5bd84d7fe1e6f3827150de1d90312d1784f4bbaa",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:14",
+        "CORE/mykonos_meme_scout/brain_v1/doctor.py:5",
+        "CORE/mykonos_meme_scout/cli.py:15",
+        "CORE/mykonos_meme_scout/demo.py:7",
+        "CORE/mykonos_meme_scout/engine.py:6",
+        "CORE/mykonos_meme_scout/scoring.py:5",
+        "DOCS/02_configuration.md:9",
+        "config/README.md:23",
+        "tests/test_config.py:11",
+        "tests/test_risk_kill.py:12",
+        "tests/test_scoring.py:11"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/dashboard.py",
+      "bytes": 5050,
+      "sha256": "49179f66692448646d2d75247bb9fd425c528eba18b7afab74f4369e5a18d05e",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:17",
+        "scripts/dashboard.py:12,32"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/demo.py",
+      "bytes": 4854,
+      "sha256": "224cc541093e70bed53b457655c66856a204d206848ca5a5f3dbb9abfe053b28",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:18"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/engine.py",
+      "bytes": 20791,
+      "sha256": "a3be83c1ea8b07a8eaaa72b1d2da4a4b15cc689864268c6a52444d9f87640c9e",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:19",
+        "CORE/mykonos_meme_scout/demo.py:8",
+        "DOCS/01_architecture.md:12,61",
+        "DOCS/decisions/0001-cleanup-baseline.md:18,30",
+        "tests/test_risk_kill.py:13"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/learning.py",
+      "bytes": 13565,
+      "sha256": "9603f21b6188a12ffe0ab8325365370142369ba171fc6a917997717763424a9a",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/causal_learning.py:276",
+        "CORE/mykonos_meme_scout/demo.py:9",
+        "CORE/mykonos_meme_scout/engine.py:7",
+        "CORE/mykonos_meme_scout/machine_intelligence.py:11,319",
+        "CORE/mykonos_meme_scout/realtime_temporal.py:14",
+        "CORE/mykonos_meme_scout/store.py:1003"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/machine_intelligence.py",
+      "bytes": 71208,
+      "sha256": "441828f877de13b8144ec3ce4003c5f241ee7e034af52623dd4a6d5fdaf7bb83",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:31",
+        "CORE/mykonos_meme_scout/learning.py:190"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/models.py",
+      "bytes": 3294,
+      "sha256": "f535e46479b4f436bd6b2b52590142461ebadd24a0f94b96299d67b1445097e7",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/demo.py:10",
+        "CORE/mykonos_meme_scout/engine.py:8",
+        "CORE/mykonos_meme_scout/learning.py:10",
+        "CORE/mykonos_meme_scout/machine_intelligence.py:12",
+        "CORE/mykonos_meme_scout/providers.py:17",
+        "CORE/mykonos_meme_scout/realtime_temporal.py:13,878",
+        "CORE/mykonos_meme_scout/scoring.py:6",
+        "CORE/mykonos_meme_scout/shadow_feed.py:10",
+        "CORE/mykonos_meme_scout/store.py:10",
+        "tests/test_scoring.py:12"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/profit_alignment.py",
+      "bytes": 13581,
+      "sha256": "c5e4db10d7a806122700bae717d6563c22fb99e6f193a037dffd644475cb1c89",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/machine_intelligence.py:13"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/providers.py",
+      "bytes": 32929,
+      "sha256": "03b3f220350f3f491766c6cbf5037e420847a096087180cd5d8213c5205807a2",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:80",
+        "CORE/mykonos_meme_scout/cli.py:20",
+        "CORE/mykonos_meme_scout/shadow_feed.py:11"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/realtime_temporal.py",
+      "bytes": 59924,
+      "sha256": "fd71cbe62323e1699b72b506dc5ff10f8fc7a58ef38d7d654a7533721d24b05a",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:39",
+        "CORE/mykonos_meme_scout/run_readiness.py:9"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/run_readiness.py",
+      "bytes": 3906,
+      "sha256": "8deadc9d1a08c50e694063e076fd7f1bd3e34ae237a379510740f3240d3a9b2f",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:42"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/scoring.py",
+      "bytes": 12811,
+      "sha256": "022fabe8536f3b77a1046984ef54ada1bb37ec6a844238e53480ac495087fb26",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/engine.py:9",
+        "DOCS/01_architecture.md:12",
+        "tests/test_scoring.py:13"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/shadow_feed.py",
+      "bytes": 12131,
+      "sha256": "103f8dc5207fa61cb0b1bf7669af75d2694ecfc64119cfe575053fbd8887d013",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/runtime.py:81",
+        "CORE/mykonos_meme_scout/cli.py:29"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/simulation.py",
+      "bytes": 62726,
+      "sha256": "cb211e52c22ce7c0028dbd9d95ad299967d4ddd7449b78846c5cbeb5f91de00b",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/brain_v1/simulation_lab.py:15",
+        "CORE/mykonos_meme_scout/cli.py:35,416"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/store.py",
+      "bytes": 57945,
+      "sha256": "1cff1102d82c34804b9f8e862648bc3dd4426f99ab3608e95d5a0b6d4f629699",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:30",
+        "CORE/mykonos_meme_scout/dashboard.py:7",
+        "CORE/mykonos_meme_scout/demo.py:11",
+        "CORE/mykonos_meme_scout/engine.py:10",
+        "CORE/mykonos_meme_scout/learning.py:11",
+        "RUNTIME/learning_settler_v460.py:6",
+        "tests/test_risk_kill.py:14"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/temporal_challenger.py",
+      "bytes": 17567,
+      "sha256": "8d750c2a6ddd4a89ca433c709de6e3d811f36513f6948734519909279f5cc523",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:43"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/temporal_intelligence.py",
+      "bytes": 36268,
+      "sha256": "709c8afada0cc2469442d8e7943390084cdf2245019a2d73c246cae3d0300671",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:44",
+        "CORE/mykonos_meme_scout/realtime_temporal.py:15",
+        "CORE/mykonos_meme_scout/run_readiness.py:10"
+      ]
+    },
+    {
+      "path": "CORE/mykonos_meme_scout/training_data.py",
+      "bytes": 27270,
+      "sha256": "2eea10e7d379dfb8fdf25731d0ce7658d2beba0182f22a5e793e80098878cd8d",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:38"
+      ]
+    },
+    {
+      "path": "CORE/pyproject.toml",
+      "bytes": 451,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "tests/conftest.py:4"
+      ]
+    },
+    {
+      "path": "DOCS/00_MILESTONE/IMC_CLEANUP_V480.json",
+      "bytes": 249,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/00_MILESTONE/IMC_MILESTONE_V480_DOUBLE_VALIDATED.json",
+      "bytes": 1802,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/CURRENT_EXECUTION_TWIN.json:25"
+      ]
+    },
+    {
+      "path": "DOCS/00_overview.md",
+      "bytes": 2499,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:5",
+        "CLAUDE.md:13"
+      ]
+    },
+    {
+      "path": "DOCS/01_VALIDATION/v480_sim_real_double_validation.json",
+      "bytes": 1152,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/01_architecture.md",
+      "bytes": 3570,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/02_configuration.md",
+      "bytes": 4253,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:29",
+        "DOCS/README_CURRENT.txt:21",
+        "DOCS/decisions/0001-cleanup-baseline.md:68",
+        "scripts/db_retention.py:5"
+      ]
+    },
+    {
+      "path": "DOCS/03_apis_and_services.md",
+      "bytes": 3347,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/04_performance_truth.md",
+      "bytes": 2737,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:37",
+        "DOCS/README_CURRENT.txt:11"
+      ]
+    },
+    {
+      "path": "DOCS/05_operations.md",
+      "bytes": 3462,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:40"
+      ]
+    },
+    {
+      "path": "DOCS/06_roadmap.md",
+      "bytes": 2541,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/BASELINE_200/20260924_205852_real_forward_v480_build_parity_status.json",
+      "bytes": 1608,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/BASELINE_200/20260924_205852_v480_build_parity_state.json",
+      "bytes": 142,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/BASELINE_200/BASELINE_15_CONFIG.json",
+      "bytes": 408,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "config/README.md:22"
+      ]
+    },
+    {
+      "path": "DOCS/BASELINE_200/BASELINE_200_CONFIG.json",
+      "bytes": 839,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "config/README.md:22"
+      ]
+    },
+    {
+      "path": "DOCS/CLEANUP_MANIFEST.json",
+      "bytes": 11762,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/decisions/0001-cleanup-baseline.md:12"
+      ]
+    },
+    {
+      "path": "DOCS/CLEANUP_RESULT.json",
+      "bytes": 564,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/README_CURRENT.txt",
+      "bytes": 1690,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "DOCS/decisions/0001-cleanup-baseline.md",
+      "bytes": 5231,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:21,25",
+        "DOCS/01_architecture.md:40,66",
+        "DOCS/02_configuration.md:27,55",
+        "DOCS/04_performance_truth.md:48,53",
+        "DOCS/05_operations.md:31,41",
+        "config/README.md:12",
+        "scripts/db_retention.py:7"
+      ]
+    },
+    {
+      "path": "DOCS/glossary.md",
+      "bytes": 2216,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "IMC_CODEX_MASTERPLAN.md",
+      "bytes": 5917,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "TOOLS/Start-IMC-Work.ps1:35"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/DEMO_MANUAL_ORDER_GATE.ps1",
+      "bytes": 1064,
+      "sha256": "0317ed7266607eaf6bdcfd192468a5b21914ea8d6c7279a2b91f7b08365109d4",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "LAUNCHERS/DEMO_ONE_KEY.ps1",
+      "bytes": 760,
+      "sha256": "4119af40664dc4988526ea57cb6cdc3e056ba1faf46d949dc1cf4e09b4554b42",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "LAUNCHERS/DEMO_THREE_ONE_KEY.ps1",
+      "bytes": 1450,
+      "sha256": "0dfb15a519edc61a404b5dfcdc87e6eff750835f52dbf5f9c9693a0c53f4d2cf",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "LAUNCHERS/DEMO_THREE_ONE_KEY_AUTOTEST.ps1",
+      "bytes": 713,
+      "sha256": "6fb36ecb6eda02fa2d16c9c31305cd357c67114afe384e8763a63596169ceab1",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "LAUNCHERS/MANUAL_ORDER_GATE.ps1",
+      "bytes": 2364,
+      "sha256": "ce38ba641caee0d1e30734839dc125b01bce029d62d0967652e02e10b7493ffd",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:18",
+        "MANUAL_ORDER_GATE.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/SHOW_IMC_LOCK_STATUS.ps1",
+      "bytes": 935,
+      "sha256": "f6f91724efa8161feb02a1cfcef81b02cdcd4cf8491be5733fc3936f9a672d41",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "LAUNCHERS/SHOW_IMC_MASTER_STATUS.ps1",
+      "bytes": 701,
+      "sha256": "6d872adbc4848adb5b1454525510ebc049515cc1c00367e0977558846b8d3bfb",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:25",
+        "SHOW_IMC_MASTER_STATUS.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/SHOW_IMC_ROUTE_LOCKS.ps1",
+      "bytes": 1343,
+      "sha256": "ceae176ee093e9b0b87eb528b1ed1bb988ee936d467ca6b45041ff9029d87ee9",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "LAUNCHERS/SHOW_IMC_SIGNALS.ps1",
+      "bytes": 732,
+      "sha256": "3693b6453b875a147ed352b2b7e1b782c112cc6eb7ba9f0d4965611d284732ff",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:25",
+        "SHOW_IMC_SIGNALS.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/START_GMGN_SIGNAL_BRIDGE.ps1",
+      "bytes": 467,
+      "sha256": "f40e725a09b394488eac681961c0e6c3eb4a04b12086ef90a4be1d32e8576a0d",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "START_GMGN_SIGNAL_BRIDGE.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/START_IMC.ps1",
+      "bytes": 1598,
+      "sha256": "6c7f0e9c24c9875e79331204b448caa2078b597bb1dfbde6abeb28a07e0349d5",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:21",
+        "README_CURRENT.txt:24"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1",
+      "bytes": 3826,
+      "sha256": "574e49e63b5633570c115ce50e5ebcf8eefebda6623a73c6146fa6f2906549c2",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_MASTER.ps1:7",
+        "START_IMC_3TRADE_PREP.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/START_IMC_MASTER.ps1",
+      "bytes": 1824,
+      "sha256": "37c74f2f7f73c95018f64c5538424d24cf677704a3373fd1ca16069061619b73",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:23",
+        "LAUNCHERS/START_IMC_TRUTH_STACK.ps1:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1",
+      "bytes": 3039,
+      "sha256": "2f5fdc3d81b4bcbf837a282b03b53d1e51a95b95e883c8ecdf50d89745dcc04c",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:22",
+        "START_IMC.bat:2",
+        "START_IMC_SIGNAL_ONLY.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/START_IMC_TRUTH_STACK.ps1",
+      "bytes": 200,
+      "sha256": "98e2bbb978c50db9c4fd21f7bb6ce35d3c87623698b1f0f3cec5007d08d1a60b",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_WITH_VISIBLE_LOCKS.ps1:6",
+        "START_IMC_TRUTH_STACK.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/START_IMC_WITH_VISIBLE_LOCKS.ps1",
+      "bytes": 1906,
+      "sha256": "e3d4680b8d24fb286821b15b305b948a1233bbd85f9297f0aabb7b834f121d2f",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "START_IMC_WITH_VISIBLE_LOCKS.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/STATUS_GMGN_SIGNAL_BRIDGE.ps1",
+      "bytes": 409,
+      "sha256": "eac2fc073a3786232812234925a69325a98c2966933ae22898883a4ca7136df0",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "STATUS_GMGN_SIGNAL_BRIDGE.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/STATUS_IMC.ps1",
+      "bytes": 2579,
+      "sha256": "b2b9c2fb0c057ec0a676c07aeec3a89166b7feafe35da96a451030254d600bad",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:21",
+        "README_CURRENT.txt:24",
+        "STATUS_IMC.bat:2",
+        "scripts/dashboard.py:38"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/STOP_IMC.ps1",
+      "bytes": 404,
+      "sha256": "82d826156bf4421807c76c36c2d86f430dfc53677870bf5bab84f8feceb3af42",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:21",
+        "README_CURRENT.txt:24",
+        "scripts/dashboard.py:30"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/STOP_IMC_3TRADE.ps1",
+      "bytes": 573,
+      "sha256": "154126b76002008df40a28fe3ecafea0944ca3a4718d14207d98a449945d509c",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "STOP_IMC_3TRADE.bat:2"
+      ]
+    },
+    {
+      "path": "LAUNCHERS/STOP_IMC_SIGNAL_ONLY.ps1",
+      "bytes": 531,
+      "sha256": "3db20ef910946927bc47c300364fb42d112765d7e2d55e5633fc7398a61256dc",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:22",
+        "STOP_IMC.bat:2",
+        "STOP_IMC_SIGNAL_ONLY.bat:2"
+      ]
+    },
+    {
+      "path": "MANUAL_ORDER_GATE.bat",
+      "bytes": 145,
+      "sha256": "9693a57c49fa2018954b94c01b50b15b5f1b8c0da5012e35fac2b57de4e032f9",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "README_CURRENT.txt",
+      "bytes": 899,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/LIGHT_FILTER_SWEEP_V484.json",
+      "bytes": 11875,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/light_filter_sweep_v484.py:6"
+      ]
+    },
+    {
+      "path": "RESEARCH/RESEARCH_DRAIN_GUARD_ANALYSIS.json",
+      "bytes": 1723,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/RESEARCH_OPTIMIZATION_V482_20260924.json",
+      "bytes": 1971,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/WATCHDOG_RESEARCH_V482.ps1",
+      "bytes": 3923,
+      "sha256": "42e4cc2d856ae15f4768fe65e9c08770d495a421c326a25acd17e8fc6cff2bbf",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC.ps1:5,19",
+        "LAUNCHERS/STATUS_IMC.ps1:10"
+      ]
+    },
+    {
+      "path": "RESEARCH/WATCHDOG_RESEARCH_V482_STATUS.json",
+      "bytes": 2238,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/WATCHDOG_RESEARCH_V482.ps1:7",
+        "RUNTIME/imc_system_health.py:25"
+      ]
+    },
+    {
+      "path": "RESEARCH/execution_v481_timeout_research_state.json",
+      "bytes": 159,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/execution_v481_timeout_research_status.json",
+      "bytes": 1677,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/execution_v482_dg120_route_forward_state.json",
+      "bytes": 187,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/execution_v482_dg120_route_forward_status.json",
+      "bytes": 1743,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/execution_v482_vr12_route_forward_state.json",
+      "bytes": 187,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/execution_v482_vr12_route_forward_status.json",
+      "bytes": 1793,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/execution_v483_vr12_route_forward.py",
+      "bytes": 36222,
+      "sha256": "a96a71004dfc7cc1644274993b9e8b01c44348d8b13810831e36413e4307bccf",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/STATUS_IMC.ps1:11",
+        "RESEARCH/WATCHDOG_RESEARCH_V482.ps1:26"
+      ]
+    },
+    {
+      "path": "RESEARCH/execution_v483_vr12_route_forward_state.json",
+      "bytes": 187,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/execution_v483_vr12_route_forward.py:19"
+      ]
+    },
+    {
+      "path": "RESEARCH/execution_v483_vr12_route_forward_status.json",
+      "bytes": 1760,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/STATUS_IMC.ps1:32",
+        "RESEARCH/WATCHDOG_RESEARCH_V482.ps1:27",
+        "RESEARCH/execution_v483_vr12_route_forward.py:18",
+        "RUNTIME/imc_system_health.py:28"
+      ]
+    },
+    {
+      "path": "RESEARCH/light_filter_sweep_v484.err.txt",
+      "bytes": 0,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/light_filter_sweep_v484.out.txt",
+      "bytes": 4480,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/light_filter_sweep_v484.py",
+      "bytes": 2791,
+      "sha256": "9b59286c43077087ce0cfcecf069ce513c1d5c7136bb78add36d938f632aa3cd",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/safe100_dg120_state.json",
+      "bytes": 161,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/watch_safe100_dg120.py:7"
+      ]
+    },
+    {
+      "path": "RESEARCH/safe100_vr12_balanced_state.json",
+      "bytes": 160,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/watch_safe100_vr12_balanced.py:7"
+      ]
+    },
+    {
+      "path": "RESEARCH/tail_exit_guard_v41.py",
+      "bytes": 866,
+      "sha256": "cde3a3ba31a46f8cc686283563a794a5a47e3d27d547f51eaada1023cf6baac9",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/watch_safe100_dg120.py:4",
+        "RESEARCH/watch_safe100_vr12_balanced.py:4",
+        "RUNTIME/watch_breadth_v425_shadow.py:4"
+      ]
+    },
+    {
+      "path": "RESEARCH/v482_vr12_candidate.json",
+      "bytes": 562,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RESEARCH/watch_safe100_dg120.py",
+      "bytes": 10404,
+      "sha256": "6be0e82a118193e8aca0fd7056bee57f3446fe71bd5465d55b84008e8f1890cf",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/WATCHDOG_RESEARCH_V482.ps1:19"
+      ]
+    },
+    {
+      "path": "RESEARCH/watch_safe100_dg120_status.json",
+      "bytes": 765,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/WATCHDOG_RESEARCH_V482.ps1:20",
+        "RESEARCH/watch_safe100_dg120.py:7",
+        "RUNTIME/imc_system_health.py:27"
+      ]
+    },
+    {
+      "path": "RESEARCH/watch_safe100_vr12_balanced.py",
+      "bytes": 10594,
+      "sha256": "eb9925721e10c66e76b6dd572f8d875cdf310e35775c8c187e206301b50c6b0a",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/WATCHDOG_RESEARCH_V482.ps1:12"
+      ]
+    },
+    {
+      "path": "RESEARCH/watch_safe100_vr12_balanced_status.json",
+      "bytes": 1327,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/WATCHDOG_RESEARCH_V482.ps1:13",
+        "RESEARCH/watch_safe100_vr12_balanced.py:7",
+        "RUNTIME/imc_system_health.py:26"
+      ]
+    },
+    {
+      "path": "RUNTIME/CURRENT_EXECUTION_TWIN.json",
+      "bytes": 1659,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/START_V480_SAFE.ps1:4"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/bridge_state.json",
+      "bytes": 305,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/gmgn_signal_bridge.py:9"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/gmgn_signal_bridge.py",
+      "bytes": 3954,
+      "sha256": "8cbe6285b43e48ff63b339381f2148659dd740af3c814a0392a4658663375dd8",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_GMGN_SIGNAL_BRIDGE.ps1:3,5",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:9,36",
+        "LAUNCHERS/STATUS_GMGN_SIGNAL_BRIDGE.ps1:3",
+        "LAUNCHERS/STOP_IMC_SIGNAL_ONLY.ps1:7"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/imc_pure_signal_gateway.py",
+      "bytes": 8088,
+      "sha256": "b191748407cbeaca003f504a3e13d2a3f828dc6c958ab01801482082ef320ccf",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:8,33",
+        "LAUNCHERS/STOP_IMC_SIGNAL_ONLY.ps1:6"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/import_gmgn_fill.py",
+      "bytes": 945,
+      "sha256": "bdbff2433752daa24ff9a9d03b66297bdc7dc30d25ebd7c777e19e98e05a8432",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/outbox/latest_signal.json",
+      "bytes": 1051,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/STATUS_GMGN_SIGNAL_BRIDGE.ps1:6",
+        "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/gmgn_signal_bridge.py:7"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/outbox/signal_journal.jsonl",
+      "bytes": 1788,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/gmgn_signal_bridge.py:8",
+        "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/imc_pure_signal_gateway.py:11"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/pure_signal_state.json",
+      "bytes": 318,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/imc_pure_signal_gateway.py:9"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/pure_signal_status.json",
+      "bytes": 392,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/imc_pure_signal_gateway.py:10"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/IMC_MASTER_MODE.json",
+      "bytes": 127,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/SHOW_IMC_MASTER_STATUS.ps1:3",
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:5",
+        "LAUNCHERS/START_IMC_MASTER.ps1:4",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:13",
+        "RUNTIME/EXECUTOR_GATEWAY/v480_live_calibration_once.js:5"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_READY_V480.json",
+      "bytes": 166,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/STATUS_IMC.ps1:19,20"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/RUN_V490_TWIN.ps1",
+      "bytes": 514,
+      "sha256": "db8bd8501e8817c076a2a8856be9483a6ee1bd9d52081a2b2a31c8127226a7bf",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:10",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:20"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/SESSION_SUPERVISOR_V490.ps1",
+      "bytes": 919,
+      "sha256": "a829d223759f24ae949ddec17a31674d6522fcbe7e0e757235c043e1f8e4b10a",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:12,68",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:22",
+        "LAUNCHERS/STOP_IMC_3TRADE.ps1:7",
+        "LAUNCHERS/STOP_IMC_SIGNAL_ONLY.ps1:9"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/STATUS_3TRADE.ps1",
+      "bytes": 814,
+      "sha256": "c98032b83a48543120510a42b5ea499a68809bdbe6f78a6575a34458f014d36a",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "STATUS_IMC_3TRADE.bat:2"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/config_v490_live.json",
+      "bytes": 915,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/02_configuration.md:36",
+        "LAUNCHERS/MANUAL_ORDER_GATE.ps1:7",
+        "LAUNCHERS/SHOW_IMC_LOCK_STATUS.ps1:3",
+        "LAUNCHERS/SHOW_IMC_MASTER_STATUS.ps1:4",
+        "LAUNCHERS/SHOW_IMC_ROUTE_LOCKS.ps1:3",
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:14",
+        "LAUNCHERS/START_IMC_MASTER.ps1:5",
+        "LAUNCHERS/START_IMC_WITH_VISIBLE_LOCKS.ps1:4",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/STATUS_3TRADE.ps1:5",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/signal_gateway_v490.py:12",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_config.template.json:8",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_jupiter_sign_no_broadcast.mjs:6",
+        "RUNTIME/EXECUTOR_GATEWAY/prepare_v490_manual_event.py:14",
+        "config/README.md:20"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/live_execution_journal_v490.jsonl",
+      "bytes": 1142,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:47",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/signal_gateway_v490.py:11"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/live_signal_gateway_v490_status.json",
+      "bytes": 390,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:46",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/SESSION_SUPERVISOR_V490.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/STATUS_3TRADE.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/signal_gateway_v490.py:10"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/live_signal_state_v490.json",
+      "bytes": 1151,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:13",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/signal_gateway_v490.py:9",
+        "RUNTIME/EXECUTOR_GATEWAY/prepare_v490_manual_event.py:13"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/signal_gateway_v490.py",
+      "bytes": 9427,
+      "sha256": "6a71b42bc060c2f59560824e5eb649bbdefc1573ce1d7c9d286b2c4ca95a0766",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/01_architecture.md:21",
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:11,65",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:21",
+        "LAUNCHERS/STOP_IMC_3TRADE.ps1:5",
+        "LAUNCHERS/STOP_IMC_SIGNAL_ONLY.ps1:5",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/SESSION_SUPERVISOR_V490.ps1:12",
+        "config/README.md:8"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/v490_twin_state.json",
+      "bytes": 142,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:49",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/RUN_V490_TWIN.ps1:6"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/v490_twin_status.json",
+      "bytes": 1718,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:48",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/RUN_V490_TWIN.ps1:5",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/STATUS_3TRADE.ps1:4"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PREPARE_V480_CALIBRATION.ps1",
+      "bytes": 262,
+      "sha256": "f378a3df1dd01b85c193302cdb133ee15b8195a94466f3051c8ff49c754eb51c",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/CURRENT_EXECUTION_TWIN.json:33"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PREPARE_V480_LIVE.ps1",
+      "bytes": 181,
+      "sha256": "a39f7f8a60f28a462329e69ed758525e68432d2540e169c93d4b98c53ec627e7",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/CHECK_AUTHKEY_FORMAT.ps1",
+      "bytes": 579,
+      "sha256": "a86f591bf1d4a81fdd8b0d3a646b26165fcbcf940f846d2375ac3656f0948c59",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/CHECK_PRIVY_WALLET_AUTH.ps1",
+      "bytes": 1153,
+      "sha256": "0f5115600c22cdda089841267ccf43ebc135261ea646607fce7b94dbf0eda9df",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/CREATE_OR_GET_PRIVY_SOL_WALLET.ps1",
+      "bytes": 1680,
+      "sha256": "c72594d1c27ddf5d2ff3c90facfab31854055909f70217104ae4e8d81555aa46",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/DIAG_PRIVY_WALLETS.ps1",
+      "bytes": 1173,
+      "sha256": "b0964830f803e58fdc9b3198638e38407ca2908f86ff9757a183a061f0ac6fe0",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/DUMP_PRIVY_WALLET_SAFE.ps1",
+      "bytes": 1070,
+      "sha256": "b08e02c7eadfe5aeae3b189f788ba19605d6a1d4dfd4c46a9041264845d42a53",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/FIX_PRIVY_APP_ID.ps1",
+      "bytes": 423,
+      "sha256": "f9485ab833fa4450244c36635908ce245adb1c7a2b66ed680c02e9046b26c301",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/FIX_PRIVY_LOCAL_WALLET.ps1",
+      "bytes": 590,
+      "sha256": "3af3de87a3fc417e6c1660fd268b4638586ea7684825484fef98b2ee52bea936",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/PRIVY_PRECHECK.ps1",
+      "bytes": 634,
+      "sha256": "bec2092eec4c9855f4110acaba8d7ca90965fc3fba813e47bef6becc966dcdee",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_APP_AUTH_TEST.ps1",
+      "bytes": 548,
+      "sha256": "e7b5aed5a47366ae4f00d58096ef9a89bd64c8709327fa20d95782fad6bad038",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_JUPITER_SIGN_TEST.ps1",
+      "bytes": 555,
+      "sha256": "266bab80ea6ab97ce90cedf7d477b2cda60c00093ac203f92a45b9e701694c7d",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_SIGN_TEST.ps1",
+      "bytes": 784,
+      "sha256": "32234314048351a51cd1d9f1a040a86a3c088dea67288b896070c15ae40bf712",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_SOLANA_TX_SIGN_TEST.ps1",
+      "bytes": 549,
+      "sha256": "dc76f7f6a371f374709d0fa998779474bb5599e2fd10a00e831ee8c17c0187c5",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/SETUP_PRIVY_LOCAL.ps1",
+      "bytes": 993,
+      "sha256": "7fea281dd793cda507721f041971c824438cdf6a73f62a6246bbcc4308252492",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/TEST_PRIVY_CONNECTION.ps1",
+      "bytes": 989,
+      "sha256": "0cbafdcf88f9e247b4190affe44d38dc8514794b00251c2693c9e32dd30dbee1",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/package-lock.json",
+      "bytes": 6349,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        ".gitignore:18"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/package.json",
+      "bytes": 303,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_config.template.json",
+      "bytes": 325,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/PRIVY_PRECHECK.ps1:5",
+        "config/README.md:21"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_jupiter_sign_no_broadcast.mjs",
+      "bytes": 1630,
+      "sha256": "ad2b414c1d1ed97e791ac6c1810b39070fcec340ea38081b4511f3e71362621b",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_JUPITER_SIGN_TEST.ps1:7"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_local.json",
+      "bytes": 308,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/CHECK_PRIVY_WALLET_AUTH.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/CREATE_OR_GET_PRIVY_SOL_WALLET.ps1:3,22",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/DIAG_PRIVY_WALLETS.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/DUMP_PRIVY_WALLET_SAFE.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/FIX_PRIVY_APP_ID.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/FIX_PRIVY_LOCAL_WALLET.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/SETUP_PRIVY_LOCAL.ps1:15",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/TEST_PRIVY_CONNECTION.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_jupiter_sign_no_broadcast.mjs:5",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_sign_app_auth_test.mjs:3",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_sign_message_test.mjs:4",
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_solana_tx_sign_test.mjs:6"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_sign_app_auth_test.mjs",
+      "bytes": 1002,
+      "sha256": "0fe086a3991e9127f0933994245694677ad27bff9088f0560032db796cc204cb",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_APP_AUTH_TEST.ps1:7"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_sign_message_test.mjs",
+      "bytes": 1331,
+      "sha256": "41742e4eac585fb311824f2aaa99176e05746c8814ab85275cc7791cc56b8b36",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_SIGN_TEST.ps1:15"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/privy_solana_tx_sign_test.mjs",
+      "bytes": 1365,
+      "sha256": "402d1116728553b283c0a4340c17b3e4c7826971b0bcf8b07c9bfb9902fe8486",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/RUN_PRIVY_SOLANA_TX_SIGN_TEST.ps1:7"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/START_V480_SAFE.ps1",
+      "bytes": 1226,
+      "sha256": "1a660a477f9e0d9325841ac482ef3f541c40048aab733c58a798d65190883443",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/STATUS_V480_SAFE.ps1",
+      "bytes": 491,
+      "sha256": "890c82e38ca7eeb9872618cc30401109b0eef40f438ae624a047a03a00abcf5c",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/STOP_V480_SAFE.ps1",
+      "bytes": 257,
+      "sha256": "daa39799a259905203f22275bfdf255534e2add5d69bc7925be9f7303e1d89ab",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/_v480_sign_sim_no_broadcast.js",
+      "bytes": 1573,
+      "sha256": "f29a87abff73b4d8e91f4419094b31a64a506fcb5e7fce9ce1c0a74b4ace8708",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/MANUAL_ORDER_GATE.ps1:46",
+        "RUNTIME/EXECUTOR_GATEWAY/PREPARE_V480_CALIBRATION.ps1:6"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/config_v480.json",
+      "bytes": 474,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/02_configuration.md:34",
+        "LAUNCHERS/SHOW_IMC_MASTER_STATUS.ps1:5",
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:19",
+        "LAUNCHERS/START_IMC_MASTER.ps1:6",
+        "RUNTIME/EXECUTOR_GATEWAY/_v480_sign_sim_no_broadcast.js:4",
+        "RUNTIME/EXECUTOR_GATEWAY/gateway_v480.py:7",
+        "RUNTIME/EXECUTOR_GATEWAY/prepare_v480_calibration.py:7",
+        "RUNTIME/EXECUTOR_GATEWAY/v480_live_calibration_once.js:8",
+        "RUNTIME/EXECUTOR_GATEWAY/wallet_status.js:4",
+        "config/README.md:19"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/decrypt_wallet.ps1",
+      "bytes": 511,
+      "sha256": "9fef8f5fe02a3cfec4b3b43ea957b2b611b1c05690f6e474e8b4a0637e3e1aa6",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/_v480_sign_sim_no_broadcast.js:7",
+        "RUNTIME/EXECUTOR_GATEWAY/v480_live_calibration_once.js:32",
+        "RUNTIME/EXECUTOR_GATEWAY/wallet_verify.js:5"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/demo_three_one_key_log.jsonl",
+      "bytes": 406,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/DEMO_THREE_ONE_KEY.ps1:3",
+        "LAUNCHERS/DEMO_THREE_ONE_KEY_AUTOTEST.ps1:2"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/gateway_v480.py",
+      "bytes": 10099,
+      "sha256": "59770c5d20c37006f83ba77411bdf9973b6de647264748e94c3964251fab56c9",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "config/README.md:8"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/package-lock.json",
+      "bytes": 40170,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        ".gitignore:18"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/package.json",
+      "bytes": 368,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/prepare_v480_calibration.py",
+      "bytes": 4152,
+      "sha256": "14f7cbac831789c4e4ef56d0d4cec6a471c0e2f03e05f236025cc8b7303002e0",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/PREPARE_V480_CALIBRATION.ps1:4",
+        "RUNTIME/EXECUTOR_GATEWAY/PREPARE_V480_LIVE.ps1:3"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/prepare_v490_manual_event.py",
+      "bytes": 2808,
+      "sha256": "6349eb9ea0794f70f2fd9c119a7df216c796fa9701264233bb0f1c93531b2f0f",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/MANUAL_ORDER_GATE.ps1:42"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/v480_calibration_candidate.json",
+      "bytes": 1822,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/EXECUTOR_GATEWAY/_v480_sign_sim_no_broadcast.js:6",
+        "RUNTIME/EXECUTOR_GATEWAY/prepare_v480_calibration.py:84",
+        "RUNTIME/EXECUTOR_GATEWAY/prepare_v490_manual_event.py:12",
+        "RUNTIME/EXECUTOR_GATEWAY/v480_live_calibration_once.js:4",
+        "RUNTIME/real_market_execution_v480_build_parity.py:21"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/v480_live_calibration_once.js",
+      "bytes": 9708,
+      "sha256": "a8645909c9198c1f0d9b6f4939e64bf38539891d50b55fd5a9be25b160ca6258",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/SHOW_IMC_LOCK_STATUS.ps1:4",
+        "LAUNCHERS/SHOW_IMC_ROUTE_LOCKS.ps1:4",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:17",
+        "LAUNCHERS/START_IMC_WITH_VISIBLE_LOCKS.ps1:5"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/v480_sim_real_double_validation.json",
+      "bytes": 1152,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/wallet_public.json",
+      "bytes": 171,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:26",
+        "RUNTIME/EXECUTOR_GATEWAY/_v480_sign_sim_no_broadcast.js:5",
+        "RUNTIME/EXECUTOR_GATEWAY/v480_live_calibration_once.js:9",
+        "RUNTIME/EXECUTOR_GATEWAY/wallet_status.js:5",
+        "RUNTIME/EXECUTOR_GATEWAY/wallet_verify.js:4"
+      ]
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/wallet_status.js",
+      "bytes": 594,
+      "sha256": "8cce3b79870d637fa01854837bfb2cacce12858d955e6d746998dfb77e01357f",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/wallet_verify.js",
+      "bytes": 689,
+      "sha256": "4345d87b81dfbb7e93ad1a656582e0da4681bf11de3bd7fbc3df5aef887bb3df",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:24",
+        "RUNTIME/EXECUTOR_GATEWAY/START_V480_SAFE.ps1:7"
+      ]
+    },
+    {
+      "path": "RUNTIME/IMC_SYSTEM_HEALTH.json",
+      "bytes": 5273,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:38",
+        "DOCS/decisions/0001-cleanup-baseline.md:52",
+        "LAUNCHERS/STATUS_IMC.ps1:23",
+        "RUNTIME/imc_system_health.py:17,77"
+      ]
+    },
+    {
+      "path": "RUNTIME/IMC_SYSTEM_HEALTH.lock",
+      "bytes": 1,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/imc_system_health.py:18"
+      ]
+    },
+    {
+      "path": "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1",
+      "bytes": 3909,
+      "sha256": "519f0444c859c77bb474d96e2ddfd0d88673b85e6cfbdc5c513e53062a994245",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC.ps1:4,14",
+        "LAUNCHERS/STATUS_IMC.ps1:9",
+        "RUNTIME/CURRENT_EXECUTION_TWIN.json:18"
+      ]
+    },
+    {
+      "path": "RUNTIME/WATCHDOG_V460_TRUTH_TWIN_STATUS.json",
+      "bytes": 2161,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1:7",
+        "RUNTIME/imc_system_health.py:21"
+      ]
+    },
+    {
+      "path": "RUNTIME/imc_resilience.py",
+      "bytes": 3176,
+      "sha256": "97d88308e3c9e9e916a6617146816a61304372696dd64fbeb8086df9cd6908b6",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:38",
+        "RESEARCH/execution_v483_vr12_route_forward.py:15",
+        "RUNTIME/imc_system_health.py:11",
+        "RUNTIME/real_market_execution_v480_build_parity.py:3"
+      ]
+    },
+    {
+      "path": "RUNTIME/imc_system_health.py",
+      "bytes": 8466,
+      "sha256": "885fad7b400b49adfa8bf052912c3eef62570a1a531dbc54c4724224e4af941f",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/START_IMC.ps1:6,24",
+        "LAUNCHERS/STATUS_IMC.ps1:12",
+        "scripts/dashboard.py:10"
+      ]
+    },
+    {
+      "path": "RUNTIME/learning_settler_v460.py",
+      "bytes": 1293,
+      "sha256": "f74a7d0057607beddc88d761af07735a9f7455b63be19fc89223adf601cad135",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/STATUS_IMC.ps1:8",
+        "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1:26"
+      ]
+    },
+    {
+      "path": "RUNTIME/learning_settler_v460_status.json",
+      "bytes": 290,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1:27",
+        "RUNTIME/imc_system_health.py:24",
+        "RUNTIME/learning_settler_v460.py:8"
+      ]
+    },
+    {
+      "path": "RUNTIME/real_forward_v480_build_parity_status.json",
+      "bytes": 1720,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "LAUNCHERS/STATUS_IMC.ps1:15,16",
+        "RUNTIME/CURRENT_EXECUTION_TWIN.json:17",
+        "RUNTIME/EXECUTOR_GATEWAY/STATUS_V480_SAFE.ps1:4",
+        "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1:20",
+        "RUNTIME/imc_system_health.py:23",
+        "RUNTIME/real_market_execution_v480_build_parity.py:16"
+      ]
+    },
+    {
+      "path": "RUNTIME/real_market_execution_v480_build_parity.py",
+      "bytes": 35942,
+      "sha256": "6f386c68faf1874d47dcd72b03d1007f4e16625cf004c53f0d967b9c5477122f",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/01_architecture.md:18",
+        "DOCS/decisions/0001-cleanup-baseline.md:25",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:19",
+        "LAUNCHERS/STATUS_IMC.ps1:7",
+        "LAUNCHERS/STOP_IMC_SIGNAL_ONLY.ps1:8",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/RUN_V490_TWIN.ps1:9",
+        "RUNTIME/EXECUTOR_GATEWAY/START_V480_SAFE.ps1:9,11,13",
+        "RUNTIME/EXECUTOR_GATEWAY/STATUS_V480_SAFE.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/STOP_V480_SAFE.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/prepare_v480_calibration.py:9",
+        "RUNTIME/EXECUTOR_GATEWAY/prepare_v490_manual_event.py:9",
+        "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1:19"
+      ]
+    },
+    {
+      "path": "RUNTIME/tail_exit_guard_v41.py",
+      "bytes": 866,
+      "sha256": "cde3a3ba31a46f8cc686283563a794a5a47e3d27d547f51eaada1023cf6baac9",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RESEARCH/watch_safe100_dg120.py:4",
+        "RESEARCH/watch_safe100_vr12_balanced.py:4",
+        "RUNTIME/watch_breadth_v425_shadow.py:4"
+      ]
+    },
+    {
+      "path": "RUNTIME/v425_watch_state.json",
+      "bytes": 139,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/watch_breadth_v425_shadow.py:7"
+      ]
+    },
+    {
+      "path": "RUNTIME/v480_build_parity_state.json",
+      "bytes": 270,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/real_market_execution_v480_build_parity.py:17"
+      ]
+    },
+    {
+      "path": "RUNTIME/watch_breadth_v425_shadow.py",
+      "bytes": 10591,
+      "sha256": "c294c788dec83e547ee34d4124a5f4dc5976d353e4ec8e36ec7221601733516e",
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/01_architecture.md:14",
+        "DOCS/02_configuration.md:42",
+        "DOCS/glossary.md:4",
+        "LAUNCHERS/START_IMC_AUTONOMOUS_PREP.ps1:9,59",
+        "LAUNCHERS/START_IMC_SIGNAL_ONLY.ps1:6,30",
+        "LAUNCHERS/STATUS_IMC.ps1:6",
+        "LAUNCHERS/STOP_IMC_3TRADE.ps1:8",
+        "LAUNCHERS/STOP_IMC_SIGNAL_ONLY.ps1:3",
+        "RUNTIME/EXECUTOR_GATEWAY/LIVE_V490/SESSION_SUPERVISOR_V490.ps1:14",
+        "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1:12"
+      ]
+    },
+    {
+      "path": "RUNTIME/watch_breadth_v425_shadow_status.json",
+      "bytes": 1626,
+      "sha256": null,
+      "version_or_backup_name": true,
+      "references_in_tracked_code_and_docs": [
+        "RUNTIME/WATCHDOG_V460_TRUTH_TWIN.ps1:13",
+        "RUNTIME/imc_system_health.py:22",
+        "RUNTIME/watch_breadth_v425_shadow.py:7"
+      ]
+    },
+    {
+      "path": "SHOW_IMC_MASTER_STATUS.bat",
+      "bytes": 150,
+      "sha256": "81641ddfe6d61354fd1dbbd2cf54b8636e9363907e70d0c32fecaf001ddd8f8c",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "SHOW_IMC_SIGNALS.bat",
+      "bytes": 144,
+      "sha256": "122bf37ef727c76d72495161ff9cce32ff96eac69abc9200094519618ff8a51f",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "START_GMGN_SIGNAL_BRIDGE.bat",
+      "bytes": 152,
+      "sha256": "ff30b99c5c1706383f1a802d433c6f34fa1ec92da289f6fa3a3da9cdcaf9fbdb",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "START_IMC.bat",
+      "bytes": 149,
+      "sha256": "41a559ff1f4f55993f5f746f7dbfebf46c847f7fdd9e0f6d3ddf7d5ce395021d",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "README_CURRENT.txt:27"
+      ]
+    },
+    {
+      "path": "START_IMC_3TRADE_PREP.bat",
+      "bytes": 115,
+      "sha256": "94613b001859846ab693f5460d93a795363261cdcee1c7c90ac7f07df329e436",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "START_IMC_SIGNAL_ONLY.bat",
+      "bytes": 149,
+      "sha256": "41a559ff1f4f55993f5f746f7dbfebf46c847f7fdd9e0f6d3ddf7d5ce395021d",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "START_IMC_TRUTH_STACK.bat",
+      "bytes": 149,
+      "sha256": "774aef6f827b98ce0edb71f79b8bd1f832601f27f9a7dbb0732a0760c98858a0",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "START_IMC_WITH_VISIBLE_LOCKS.bat",
+      "bytes": 156,
+      "sha256": "01fea80fc7b791495dc6aa737311b65a27489a70f92dfdaf1a48bd5a72ffae31",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "STATUS_GMGN_SIGNAL_BRIDGE.bat",
+      "bytes": 153,
+      "sha256": "a4bdd1a6305046848429b8f0264e070cc898365dac55e7885b79a7b1d03af76e",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "STATUS_IMC.bat",
+      "bytes": 103,
+      "sha256": "7f25aee11dfdbed879b34c053a850cfba8332d0df67aa58e4752f3254773bcd4",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "README_CURRENT.txt:29"
+      ]
+    },
+    {
+      "path": "STATUS_IMC_3TRADE.bat",
+      "bytes": 128,
+      "sha256": "b937d5c6a95ef170f29098eb40e8f5f6c9868e6b720db4ca385f73e85f140c1b",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "STOP_IMC.bat",
+      "bytes": 148,
+      "sha256": "51a07dbcd8284ab90f0c01f3365c64a7e429fa99b0ff13b1f7244a7ac5965f89",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "README_CURRENT.txt:28"
+      ]
+    },
+    {
+      "path": "STOP_IMC_3TRADE.bat",
+      "bytes": 105,
+      "sha256": "373825b52d4761d51109f034d9d15a154339758d250a8318687696f39257c37a",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "STOP_IMC_SIGNAL_ONLY.bat",
+      "bytes": 148,
+      "sha256": "51a07dbcd8284ab90f0c01f3365c64a7e429fa99b0ff13b1f7244a7ac5965f89",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "TOOLS/Ask-IMC-Advisor.ps1",
+      "bytes": 1821,
+      "sha256": "8c512cae85c8a11e8ba68617c64fd8092b7b20bfd6b42e31883e06a3a22416be",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "TOOLS/Get-IMC-AdvisorConfig.ps1",
+      "bytes": 1348,
+      "sha256": "68104eadfea353198b9a98e534277f457e92e15f86eab3abc74ec1b378f5fa14",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/02_configuration.md:74",
+        "TOOLS/Ask-IMC-Advisor.ps1:7",
+        "TOOLS/Start-IMC-Advisor.ps1:4",
+        "TOOLS/Start-IMC-Work.ps1:7"
+      ]
+    },
+    {
+      "path": "TOOLS/IMC.cmd",
+      "bytes": 157,
+      "sha256": "7c1d5edf662e3cb3e980847ad91a7906933460ddbec3465b40667f8e61507504",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:14",
+        "TOOLS/Install-IMC-Command.ps1:2,4,11"
+      ]
+    },
+    {
+      "path": "TOOLS/Install-IMC-Command.ps1",
+      "bytes": 1552,
+      "sha256": "cac91c27c85c43b6149e97d9cd04020b786b2218745b90fa3c7cfbbc2953384f",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:13"
+      ]
+    },
+    {
+      "path": "TOOLS/Start-IMC-Advisor.ps1",
+      "bytes": 1840,
+      "sha256": "ce73659eb88375bb750354c2fe04406b52ccd9535ad6699d6769645bb670d846",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/02_configuration.md:85",
+        "TOOLS/Start-IMC-Duo.ps1:2"
+      ]
+    },
+    {
+      "path": "TOOLS/Start-IMC-Duo.ps1",
+      "bytes": 473,
+      "sha256": "9f6d105cdce4e37785b5a8af617e35c71631846d21e2691d458054d711f30aad",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "TOOLS/Start-IMC-Work.ps1",
+      "bytes": 4520,
+      "sha256": "1c6253dc31d851e8c89544e854ceb1ae5de0d4ef44385ff59e7ef80f270c9586",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/02_configuration.md:86,87",
+        "TOOLS/IMC.cmd:2",
+        "TOOLS/Start-IMC-Duo.ps1:1"
+      ]
+    },
+    {
+      "path": "WALLET/1_STATUS_WALLET.bat",
+      "bytes": 43,
+      "sha256": "ad0de33cdb8cc28b449c033e8b4fd267585840a52e9d3d18111a1de05af743d5",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "WALLET/2_EINZAHLEN.bat",
+      "bytes": 189,
+      "sha256": "eff3939319a255044d98f14d70b5c0f84d5f3e92c180d7578fccc150fbff0ff5",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "WALLET/IMC Wallet - Aktivitaeten.url",
+      "bytes": 95,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "WALLET/WALLET_INFO.txt",
+      "bytes": 162,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "WALLET/wallet_status.py",
+      "bytes": 996,
+      "sha256": "fbf0f8dc9f4514e11a181ddb7347bdea99d037f444f0ecf3188555b6b0b50e68",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/05_operations.md:40",
+        "WALLET/1_STATUS_WALLET.bat:2"
+      ]
+    },
+    {
+      "path": "config/README.md",
+      "bytes": 1709,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/02_configuration.md:32",
+        "DOCS/decisions/0001-cleanup-baseline.md:40"
+      ]
+    },
+    {
+      "path": "config/imc-advisor.json",
+      "bytes": 239,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "AGENTS.md:53",
+        "DOCS/02_configuration.md:65",
+        "DOCS/05_operations.md:9",
+        "TOOLS/Get-IMC-AdvisorConfig.ps1:1",
+        "TOOLS/Start-IMC-Work.ps1:39,43",
+        "config/README.md:18"
+      ]
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 330,
+      "sha256": null,
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "tests/conftest.py:4"
+      ]
+    },
+    {
+      "path": "scripts/dashboard.py",
+      "bytes": 5561,
+      "sha256": "1d28c75e1594be691d0f73a528f04f911c379ac7a8724bb5ce2cbd265f44808a",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CORE/mykonos_meme_scout/cli.py:17"
+      ]
+    },
+    {
+      "path": "scripts/db_retention.py",
+      "bytes": 4343,
+      "sha256": "31b8166f8ec2e3f0aa9949e8a8a15e27ccb3e4a8dce1c044d448de04b8c25a21",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "DOCS/decisions/0001-cleanup-baseline.md:60"
+      ]
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 501,
+      "sha256": "aef1cabd9f32af34e3b017fbfb8447cd08a97756ecb38121e56317d6dd375ad5",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": [
+        "CLAUDE.md:25"
+      ]
+    },
+    {
+      "path": "tests/test_config.py",
+      "bytes": 1575,
+      "sha256": "1d4663035602a92a76d3f7d21f56ed342c712208ce8cbc394b943f0bfc366a95",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "tests/test_risk_kill.py",
+      "bytes": 1820,
+      "sha256": "690b92b87927ea72d5a3a1ca734ecbd46c4fa3dec4fae7e5ff4ba065e03cd41a",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "bytes": 2962,
+      "sha256": "cdffa512a617a4a96659d03adc2306803e79e8a06b402ad9fdb9774a80aead92",
+      "version_or_backup_name": false,
+      "references_in_tracked_code_and_docs": []
+    }
+  ],
+  "local_metadata": [
+    {
+      "path": "CORE/data/imc-main.db",
+      "bytes": 37475799040
+    },
+    {
+      "path": "CORE/data/imc-main.db-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "CORE/data/imc-main.db-wal",
+      "bytes": 11906832
+    },
+    {
+      "path": "CORE/data/ml-autolearn.log",
+      "bytes": 5070044
+    },
+    {
+      "path": "CORE/logs/imc-core-1044.log",
+      "bytes": 22208348
+    },
+    {
+      "path": "CORE/logs/imc-core-13348.log",
+      "bytes": 37437
+    },
+    {
+      "path": "CORE/logs/imc-core-16332.log",
+      "bytes": 26767
+    },
+    {
+      "path": "CORE/logs/imc-core-16968.log",
+      "bytes": 38537
+    },
+    {
+      "path": "DOCS/BASELINE_200/20260924_205852_real-forward-v480-build-parity.db",
+      "bytes": 61440
+    },
+    {
+      "path": "RESEARCH/execution-v481-timeout-research.db",
+      "bytes": 36864
+    },
+    {
+      "path": "RESEARCH/execution-v482-dg120-route-forward.db",
+      "bytes": 36864
+    },
+    {
+      "path": "RESEARCH/execution-v482-vr12-route-forward.db",
+      "bytes": 4894720
+    },
+    {
+      "path": "RESEARCH/execution-v482-vr12-route-forward.db-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "RESEARCH/execution-v482-vr12-route-forward.db-wal",
+      "bytes": 4132392
+    },
+    {
+      "path": "RESEARCH/execution-v483-vr12-route-forward.db",
+      "bytes": 188416
+    },
+    {
+      "path": "RESEARCH/watch-safe100-dg120.db",
+      "bytes": 1966080
+    },
+    {
+      "path": "RESEARCH/watch-safe100-vr12-balanced.db",
+      "bytes": 2015232
+    },
+    {
+      "path": "RUNTIME/imc-resilience.db",
+      "bytes": 12288
+    },
+    {
+      "path": "RUNTIME/real-forward-v480-build-parity.db",
+      "bytes": 184320
+    },
+    {
+      "path": "RUNTIME/real-forward-v490-live-twin.db",
+      "bytes": 528384
+    },
+    {
+      "path": "RUNTIME/real-forward-v490-live-twin.db-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "RUNTIME/real-forward-v490-live-twin.db-wal",
+      "bytes": 0
+    },
+    {
+      "path": "RUNTIME/watch-breadth-v425-shadow.db",
+      "bytes": 40071168
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/wallet.dpapi",
+      "bytes": 294
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/app_secret.dpapi",
+      "bytes": 878
+    },
+    {
+      "path": "RUNTIME/EXECUTOR_GATEWAY/PRIVY_PREP/authorization_key.dpapi",
+      "bytes": 878
+    }
+  ],
+  "read_errors": []
+}

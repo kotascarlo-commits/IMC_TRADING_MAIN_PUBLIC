@@ -1,0 +1,555 @@
+{
+  "version": "4.8.4-light-sweep",
+  "source_closed_safe100": 116,
+  "usable": 116,
+  "missing": 0,
+  "method": "stricter subset of already-closed SAFE100; no new market calls; +6 stress modeled as extra $6 per $100 trade",
+  "results": [
+    {
+      "liq_min": 100000,
+      "vr_max": 0.08,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 110000,
+      "vr_max": 0.08,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 120000,
+      "vr_max": 0.08,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 125000,
+      "vr_max": 0.08,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 125000,
+      "vr_max": 0.1,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 125000,
+      "vr_max": 0.12,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 130000,
+      "vr_max": 0.08,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 130000,
+      "vr_max": 0.1,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 130000,
+      "vr_max": 0.12,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 140000,
+      "vr_max": 0.08,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 140000,
+      "vr_max": 0.1,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 140000,
+      "vr_max": 0.12,
+      "base": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 10.79,
+        "net": 2110.22
+      },
+      "stress_plus_6pct": {
+        "n": 49,
+        "wins": 49,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.54,
+        "net": 1816.22
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 150000,
+      "vr_max": 0.08,
+      "base": {
+        "n": 47,
+        "wins": 47,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.36,
+        "net": 2003.88
+      },
+      "stress_plus_6pct": {
+        "n": 47,
+        "wins": 47,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 12.18,
+        "net": 1721.88
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 150000,
+      "vr_max": 0.1,
+      "base": {
+        "n": 47,
+        "wins": 47,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.36,
+        "net": 2003.88
+      },
+      "stress_plus_6pct": {
+        "n": 47,
+        "wins": 47,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 12.18,
+        "net": 1721.88
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 150000,
+      "vr_max": 0.12,
+      "base": {
+        "n": 47,
+        "wins": 47,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 11.36,
+        "net": 2003.88
+      },
+      "stress_plus_6pct": {
+        "n": 47,
+        "wins": 47,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "pf": 99.0,
+        "dd_pct": 0.0,
+        "top3_pct": 12.18,
+        "net": 1721.88
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 120000,
+      "vr_max": 0.1,
+      "base": {
+        "n": 50,
+        "wins": 49,
+        "losses": 1,
+        "hit_pct": 98.0,
+        "pf": 20.81,
+        "dd_pct": 3.26,
+        "top3_pct": 10.79,
+        "net": 2008.82
+      },
+      "stress_plus_6pct": {
+        "n": 50,
+        "wins": 49,
+        "losses": 1,
+        "hit_pct": 98.0,
+        "pf": 16.91,
+        "dd_pct": 3.81,
+        "top3_pct": 11.54,
+        "net": 1708.82
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 120000,
+      "vr_max": 0.12,
+      "base": {
+        "n": 50,
+        "wins": 49,
+        "losses": 1,
+        "hit_pct": 98.0,
+        "pf": 20.81,
+        "dd_pct": 3.26,
+        "top3_pct": 10.79,
+        "net": 2008.82
+      },
+      "stress_plus_6pct": {
+        "n": 50,
+        "wins": 49,
+        "losses": 1,
+        "hit_pct": 98.0,
+        "pf": 16.91,
+        "dd_pct": 3.81,
+        "top3_pct": 11.54,
+        "net": 1708.82
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 100000,
+      "vr_max": 0.1,
+      "base": {
+        "n": 53,
+        "wins": 50,
+        "losses": 3,
+        "hit_pct": 94.34,
+        "pf": 6.948,
+        "dd_pct": 6.41,
+        "top3_pct": 10.77,
+        "net": 1809.33
+      },
+      "stress_plus_6pct": {
+        "n": 53,
+        "wins": 49,
+        "losses": 4,
+        "hit_pct": 92.45,
+        "pf": 5.59,
+        "dd_pct": 7.14,
+        "top3_pct": 11.54,
+        "net": 1491.33
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 110000,
+      "vr_max": 0.1,
+      "base": {
+        "n": 53,
+        "wins": 50,
+        "losses": 3,
+        "hit_pct": 94.34,
+        "pf": 6.948,
+        "dd_pct": 6.41,
+        "top3_pct": 10.77,
+        "net": 1809.33
+      },
+      "stress_plus_6pct": {
+        "n": 53,
+        "wins": 49,
+        "losses": 4,
+        "hit_pct": 92.45,
+        "pf": 5.59,
+        "dd_pct": 7.14,
+        "top3_pct": 11.54,
+        "net": 1491.33
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 100000,
+      "vr_max": 0.12,
+      "base": {
+        "n": 60,
+        "wins": 56,
+        "losses": 4,
+        "hit_pct": 93.33,
+        "pf": 5.363,
+        "dd_pct": 7.86,
+        "top3_pct": 10.46,
+        "net": 1769.72
+      },
+      "stress_plus_6pct": {
+        "n": 60,
+        "wins": 53,
+        "losses": 7,
+        "hit_pct": 88.33,
+        "pf": 4.251,
+        "dd_pct": 8.89,
+        "top3_pct": 11.37,
+        "net": 1409.72
+      },
+      "base_pass": true,
+      "stress_pass": true
+    },
+    {
+      "liq_min": 110000,
+      "vr_max": 0.12,
+      "base": {
+        "n": 58,
+        "wins": 54,
+        "losses": 4,
+        "hit_pct": 93.1,
+        "pf": 5.314,
+        "dd_pct": 7.86,
+        "top3_pct": 10.56,
+        "net": 1749.89
+      },
+      "stress_plus_6pct": {
+        "n": 58,
+        "wins": 52,
+        "losses": 6,
+        "hit_pct": 89.66,
+        "pf": 4.238,
+        "dd_pct": 8.89,
+        "top3_pct": 11.43,
+        "net": 1401.89
+      },
+      "base_pass": true,
+      "stress_pass": true
+    }
+  ]
+}

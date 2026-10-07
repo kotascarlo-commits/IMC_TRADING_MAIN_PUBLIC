@@ -1,0 +1,191 @@
+{
+  "source": "C:\\Users\\<local-user>\\Desktop\\IMC_TRADING_MAIN\\CORE\\data\\imc-main.db",
+  "started_utc": "2026-10-02T10:13:44.560663+00:00",
+  "sqlite_version": "3.53.4",
+  "upstream": "https://www.sqlite.org/dbstat.html",
+  "complete": false,
+  "object_storage": [
+    {
+      "name": "account_state",
+      "pages": 1,
+      "allocated_bytes": 4096,
+      "payload_bytes": 76,
+      "unused_bytes": 4008,
+      "type": "table",
+      "table": "account_state",
+      "elapsed_seconds": 0.029
+    },
+    {
+      "name": "cookie_ledger",
+      "pages": 337188,
+      "allocated_bytes": 1381122048,
+      "payload_bytes": 1288653692,
+      "unused_bytes": 40230448,
+      "type": "table",
+      "table": "cookie_ledger",
+      "elapsed_seconds": 24.77
+    },
+    {
+      "name": "idx_decisions_address_time",
+      "pages": 450867,
+      "allocated_bytes": 1846751232,
+      "payload_bytes": 1019243725,
+      "unused_bytes": 785357826,
+      "type": "index",
+      "table": "decisions",
+      "elapsed_seconds": 96.032
+    },
+    {
+      "name": "idx_decisions_captured_address_id",
+      "pages": 303339,
+      "allocated_bytes": 1242476544,
+      "payload_bytes": 1072054358,
+      "unused_bytes": 130042841,
+      "type": "index",
+      "table": "decisions",
+      "elapsed_seconds": 53.886
+    },
+    {
+      "name": "idx_learning_address_time",
+      "pages": 517767,
+      "allocated_bytes": 2120773632,
+      "payload_bytes": 1348061298,
+      "unused_bytes": 718012564,
+      "type": "index",
+      "table": "learning_predictions",
+      "elapsed_seconds": 113.784
+    },
+    {
+      "name": "idx_one_open_position",
+      "pages": 1,
+      "allocated_bytes": 4096,
+      "payload_bytes": 0,
+      "unused_bytes": 4088,
+      "type": "index",
+      "table": "positions",
+      "elapsed_seconds": 0.011
+    },
+    {
+      "name": "idx_snapshots_address_time",
+      "pages": 446389,
+      "allocated_bytes": 1828409344,
+      "payload_bytes": 1019367818,
+      "unused_bytes": 766941147,
+      "type": "index",
+      "table": "snapshots",
+      "elapsed_seconds": 96.785
+    },
+    {
+      "name": "learning_outcomes",
+      "pages": 83957,
+      "allocated_bytes": 343887872,
+      "payload_bytes": 274687284,
+      "unused_bytes": 26916655,
+      "type": "table",
+      "table": "learning_outcomes",
+      "elapsed_seconds": 18.755
+    },
+    {
+      "name": "model_registry",
+      "pages": 6,
+      "allocated_bytes": 24576,
+      "payload_bytes": 17813,
+      "unused_bytes": 6373,
+      "type": "table",
+      "table": "model_registry",
+      "elapsed_seconds": 0.018
+    },
+    {
+      "name": "outcomes",
+      "pages": 408,
+      "allocated_bytes": 1671168,
+      "payload_bytes": 1525975,
+      "unused_bytes": 17949,
+      "type": "table",
+      "table": "outcomes",
+      "elapsed_seconds": 0.117
+    },
+    {
+      "name": "positions",
+      "pages": 5,
+      "allocated_bytes": 20480,
+      "payload_bytes": 13606,
+      "unused_bytes": 6399,
+      "type": "table",
+      "table": "positions",
+      "elapsed_seconds": 0.012
+    },
+    {
+      "name": "schema_meta",
+      "pages": 1,
+      "allocated_bytes": 4096,
+      "payload_bytes": 195,
+      "unused_bytes": 3881,
+      "type": "table",
+      "table": "schema_meta",
+      "elapsed_seconds": 0.01
+    }
+  ],
+  "errors": [
+    {
+      "object": "decisions",
+      "error": "Command '['C:\\\\Users\\\\<local-user>\\\\Desktop\\\\IMC_TRADING_MAIN\\\\.local-tools\\\\sqlite3.exe', '-readonly', '-batch', '-json', '-cmd', '.timeout 1000', 'C:\\\\Users\\\\<local-user>\\\\Desktop\\\\IMC_TRADING_MAIN\\\\CORE\\\\data\\\\imc-main.db', \"PRAGMA query_only=ON; BEGIN; SELECT name,pageno AS pages,pgsize AS allocated_bytes,payload AS payload_bytes,unused AS unused_bytes FROM dbstat WHERE name='decisions' AND aggregate=TRUE; ROLLBACK;\"]' timed out after 180 seconds"
+    },
+    {
+      "object": "learning_predictions",
+      "error": "Command '['C:\\\\Users\\\\<local-user>\\\\Desktop\\\\IMC_TRADING_MAIN\\\\.local-tools\\\\sqlite3.exe', '-readonly', '-batch', '-json', '-cmd', '.timeout 1000', 'C:\\\\Users\\\\<local-user>\\\\Desktop\\\\IMC_TRADING_MAIN\\\\CORE\\\\data\\\\imc-main.db', \"PRAGMA query_only=ON; BEGIN; SELECT name,pageno AS pages,pgsize AS allocated_bytes,payload AS payload_bytes,unused AS unused_bytes FROM dbstat WHERE name='learning_predictions' AND aggregate=TRUE; ROLLBACK;\"]' timed out after 180 seconds"
+    },
+    {
+      "object": "snapshots",
+      "error": "Command '['C:\\\\Users\\\\<local-user>\\\\Desktop\\\\IMC_TRADING_MAIN\\\\.local-tools\\\\sqlite3.exe', '-readonly', '-batch', '-json', '-cmd', '.timeout 1000', 'C:\\\\Users\\\\<local-user>\\\\Desktop\\\\IMC_TRADING_MAIN\\\\CORE\\\\data\\\\imc-main.db', \"PRAGMA query_only=ON; BEGIN; SELECT name,pageno AS pages,pgsize AS allocated_bytes,payload AS payload_bytes,unused AS unused_bytes FROM dbstat WHERE name='snapshots' AND aggregate=TRUE; ROLLBACK;\"]' timed out after 135.67482689999997 seconds"
+    },
+    {
+      "object": "sqlite_autoindex_cookie_ledger_1",
+      "error": "total time budget exhausted"
+    },
+    {
+      "object": "sqlite_autoindex_learning_predictions_1",
+      "error": "total time budget exhausted"
+    },
+    {
+      "object": "sqlite_autoindex_model_registry_1",
+      "error": "total time budget exhausted"
+    },
+    {
+      "object": "sqlite_autoindex_outcomes_1",
+      "error": "total time budget exhausted"
+    },
+    {
+      "object": "sqlite_autoindex_schema_meta_1",
+      "error": "total time budget exhausted"
+    },
+    {
+      "object": "trades",
+      "error": "total time budget exhausted"
+    }
+  ],
+  "files_before": {
+    "C:\\Users\\<local-user>\\Desktop\\IMC_TRADING_MAIN\\CORE\\data\\imc-main.db": {
+      "bytes": 37475799040,
+      "mtime_ns": 1790889753180105900
+    },
+    "C:\\Users\\<local-user>\\Desktop\\IMC_TRADING_MAIN\\CORE\\data\\imc-main.db-wal": {
+      "bytes": 11906832,
+      "mtime_ns": 1790889753249710600
+    }
+  },
+  "note": "Separate readonly transaction per object; require unchanged main/WAL file metadata across audit. Allocated bytes are not reclaimable bytes.",
+  "files_after": {
+    "C:\\Users\\<local-user>\\Desktop\\IMC_TRADING_MAIN\\CORE\\data\\imc-main.db": {
+      "bytes": 37475799040,
+      "mtime_ns": 1790889753180105900
+    },
+    "C:\\Users\\<local-user>\\Desktop\\IMC_TRADING_MAIN\\CORE\\data\\imc-main.db-wal": {
+      "bytes": 11906832,
+      "mtime_ns": 1790889753249710600
+    }
+  },
+  "source_file_metadata_unchanged": true,
+  "finished_utc": "2026-10-02T10:28:44.481753+00:00",
+  "elapsed_seconds": 900.01
+}

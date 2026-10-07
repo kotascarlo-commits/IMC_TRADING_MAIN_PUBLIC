@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "mode": "THREE_TRADE_VALIDATION",
+  "state": "PREPARED_ONLY",
+  "provider": "JUPITER_V2",
+  "route_scope": "SOL_USDC_VERIFIED_SINGLE_HOP_WHIRLPOOL_OR_LEGACY_RAYDIUM_CLMM",
+  "max_closed_trades": 3,
+  "max_attempted_trades": 3,
+  "max_open_positions": 1,
+  "count_requires": "CLOSED_AND_FULLY_RECONCILED",
+  "strategy_qualification": false,
+  "signing": false,
+  "broadcast_enabled": false,
+  "live_trading_enabled": false,
+  "owner_gate": "OFF"
+}

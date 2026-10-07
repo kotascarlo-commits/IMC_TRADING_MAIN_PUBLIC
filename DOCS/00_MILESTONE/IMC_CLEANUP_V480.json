@@ -1,0 +1,7 @@
+﻿{
+    "cleaned_at":  "2026-09-24T20:07:50.8692238+02:00",
+    "removed_files":  139,
+    "removed_bytes":  3489286,
+    "removed_mb":  3.33,
+    "kept":  "current v4.8 + watcher DB + training/market data + double validation + milestone"
+}

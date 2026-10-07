@@ -1,0 +1,7 @@
+{
+  "poll_seconds": 2,
+  "stale_seconds": 300,
+  "lock_timeout_seconds": 3,
+  "max_status_bytes": 65536,
+  "bar_width": 20
+}

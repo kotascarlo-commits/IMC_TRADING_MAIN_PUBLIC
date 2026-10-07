@@ -1,0 +1,33 @@
+{
+  "version": "4.8.0",
+  "status": "SIM_REAL_PATH_VALIDATED_TWICE",
+  "validation_runs": 2,
+  "run_1": {
+    "entry_fee_exact": true,
+    "entry_compute_exact": true,
+    "exit_output_exact": true,
+    "exit_fee_exact": true,
+    "exit_compute_exact": true,
+    "notes": "Initial run exposed rent lifecycle and provisional build fill differences; simulator corrected."
+  },
+  "run_2": {
+    "entry_expected_token_out_raw": 5235083041,
+    "entry_actual_token_out_raw": 5235083041,
+    "entry_fill_exact": true,
+    "entry_expected_sol_delta_lamports": -105000,
+    "entry_actual_sol_delta_lamports": -105000,
+    "entry_fee_lamports": 5000,
+    "entry_compute_units": 116335,
+    "exit_expected_sell_out_lamports": 97527,
+    "exit_actual_sell_out_lamports": 97527,
+    "exit_expected_wallet_delta_lamports": 92525,
+    "exit_actual_wallet_delta_lamports": 92525,
+    "exit_fee_lamports": 5002,
+    "exit_compute_units": 95997,
+    "exit_token_delta_raw": -5235083041,
+    "all_checked_fields_exact": true
+  },
+  "wallet_free_sol_after_tests": 0.002191484,
+  "autonomous_live_allowed": false,
+  "next_phase": "OPTIMIZE_IMC_ON_CALIBRATED_SIMULATION"
+}

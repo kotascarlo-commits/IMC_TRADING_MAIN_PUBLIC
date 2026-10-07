@@ -1,0 +1,10 @@
+﻿{
+    "run":  "BASELINE_15_CONFIRMATION_FROZEN",
+    "started_at":  "2026-09-24T18:58:52.8945061Z",
+    "target_closed":  15,
+    "script_sha256":  "A877614A9651ACDBC948AD7FFAA5719544B9234E354FF9F1199DEB2CB13E54E8",
+    "authority":  "0%",
+    "live_execution":  false,
+    "optimization_during_run":  false,
+    "purpose":  "Forward confirmation only; not statistical performance validation"
+}

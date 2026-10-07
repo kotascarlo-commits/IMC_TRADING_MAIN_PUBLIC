@@ -1,0 +1,33 @@
+{
+  "version": "DG120-research",
+  "state": "RUNNING_DG120_RESEARCH",
+  "updated": "2026-09-25T07:58:04.872049+00:00",
+  "authority": "0%",
+  "forward_only": true,
+  "source_lane": "WATCH",
+  "communication": "UDP_DIRECT_PLUS_DB_FALLBACK",
+  "direct_bus": {
+    "rx": 111242,
+    "rx_errors": 0,
+    "tx_errors": 0,
+    "last_ms": 0.701,
+    "avg_ms": 1.152,
+    "last_at": "2026-09-25T07:58:04.791094+00:00"
+  },
+  "variants": {
+    "SAFE100_DG120": {
+      "seen": 8436,
+      "accepted": 34,
+      "result": {
+        "n": 1,
+        "wins": 0,
+        "losses": 1,
+        "hit_rate_pct": 0.0,
+        "pf_net": 0.0,
+        "net_pnl_usd": -101.4046,
+        "top3_profit_share_pct": 100
+      }
+    }
+  },
+  "last_error": null
+}

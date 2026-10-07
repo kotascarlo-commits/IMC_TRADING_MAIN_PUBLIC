@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-24T20:05:00+00:00",
+  "purpose": "Research only; forward 15-trade lane unchanged",
+  "baseline_safe100": {
+    "n": 110,
+    "hit_rate_pct": 83.6,
+    "pf": 1.4,
+    "max_dd_pct": 21.1,
+    "top3_pct": 9.4,
+    "net_pnl_usd": 697.7,
+    "unsellable_drains": 17
+  },
+  "balanced_vr12": {
+    "rule": "SAFE100 unchanged + volume_5m/liquidity <= 0.12",
+    "n": 59,
+    "hit_rate_pct": 94.9,
+    "pf": 7.15,
+    "max_dd_pct": 7.9,
+    "top3_pct": 10.5,
+    "net_pnl_usd": 1871.1,
+    "unsellable_drains": 3,
+    "stress_plus_6pct": {
+      "hit_rate_pct": 89.8,
+      "pf": 5.65,
+      "max_dd_pct": 8.9,
+      "top3_pct": 11.4
+    }
+  },
+  "strict_dg1": {
+    "rule": "SAFE100 + liquidity >= 125000 + volume_5m/liquidity <= 0.12",
+    "n": 49,
+    "hit_rate_pct": 100.0,
+    "pf_nominal": 99.0,
+    "max_dd_pct": 0.0,
+    "top3_pct": 10.8,
+    "net_pnl_usd": 2110.2,
+    "unsellable_drains": 0,
+    "stress_plus_6pct": {
+      "hit_rate_pct": 100.0,
+      "pf_nominal": 99.0,
+      "max_dd_pct": 0.0,
+      "top3_pct": 11.5
+    }
+  },
+  "temporal_validation": {
+    "baseline": {
+      "train_pf": 2.33,
+      "validation_pf": 0.59,
+      "validation_hit_pct": 69.7
+    },
+    "balanced_vr12": {
+      "validation_pf": 4.83,
+      "validation_hit_pct": 94.1
+    }
+  },
+  "cross_variant_check": {
+    "SAFE30_vr12": {
+      "pf": 3.44,
+      "hit_pct": 89.8
+    },
+    "SAFE50_vr12": {
+      "pf": 4.53,
+      "hit_pct": 90.2
+    },
+    "SAFE100_vr12": {
+      "pf": 7.15,
+      "hit_pct": 94.9
+    }
+  },
+  "decision": "Do not promote yet. Run both challengers forward in shadow; balanced is preferred anti-overfit candidate."
+}

@@ -1,0 +1,75 @@
+{
+  "state": "RUNNING_RESEARCH_FORWARD",
+  "authority": "0%",
+  "live_execution": false,
+  "broadcast": false,
+  "real_wallet_lamports": 2191484,
+  "minimum_peak_example_lamports": 3226428,
+  "minimum_peak_shortfall_lamports": 1034944,
+  "historical_replay_0_01_sol": {
+    "SAFE100": {
+      "pf": 0.85,
+      "hit_pct": 77.8,
+      "dd_pct": 22.4,
+      "capital_rejects": 92
+    },
+    "VR12": {
+      "pf": 10.7,
+      "hit_pct": 96.4,
+      "dd_pct": 10.0,
+      "capital_rejects": 0
+    },
+    "DG120": {
+      "pf_nominal": 99.0,
+      "hit_pct": 100.0,
+      "dd_pct": 0.0,
+      "capital_rejects": 0
+    }
+  },
+  "stress6_replay_0_01_sol": {
+    "VR12": {
+      "pf": 8.46,
+      "hit_pct": 94.6,
+      "dd_pct": 10.6
+    },
+    "DG120": {
+      "pf_nominal": 99.0,
+      "hit_pct": 100.0,
+      "dd_pct": 0.0
+    }
+  },
+  "monte_carlo_120k_tail_stress": {
+    "VR12": {
+      "injected_drain_rate_pct": 12.12,
+      "pf_median": 1.34,
+      "hit_median_pct": 80.49,
+      "dd_median_pct": 22.95,
+      "all_targets_pass_pct": 1.6
+    },
+    "DG120": {
+      "injected_drain_rate_pct": 7.27,
+      "pf_median": 4.43,
+      "hit_median_pct": 93.0,
+      "dd_median_pct": 17.27,
+      "all_targets_pass_pct": 37.76
+    }
+  },
+  "important_findings": [
+    "Historical UNSELLABLE_DRAIN is DexScreener-liquidity based, not historical Jupiter sell-route proof.",
+    "DG120 historical sample equals Fluxbeam subset; do not promote from historical result alone.",
+    "Current real wallet is too small for a typical new-mint BUY peak ATA+WSOL setup.",
+    "v4.8.2 forward research uses current Jupiter Build/SELL routes with virtual 0.01 SOL and no signing."
+  ],
+  "active_forward_research": [
+    {
+      "variant": "SAFE100_VR12",
+      "target_closed": 15,
+      "udp_port": 49226
+    },
+    {
+      "variant": "SAFE100_DG120",
+      "target_closed": 15,
+      "udp_port": 49426
+    }
+  ]
+}

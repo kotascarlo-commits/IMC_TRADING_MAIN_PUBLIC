@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "evidence_class": "JUPITER_LIVE_MARKET_QUOTE_PAPER_NOT_CHAIN_FILLS",
+  "provider": "JUPITER_V2",
+  "target_closed": 100,
+  "max_attempts": 200,
+  "database": "RUNTIME/jupiter-forward.db",
+  "status": "RUNTIME/jupiter-forward-status.json",
+  "source_database": "CORE/data/imc-main.db",
+  "wallet_public_file": "RUNTIME/EXECUTOR_GATEWAY/wallet_public.json",
+  "poll_seconds": 2.2,
+  "feed_interval_seconds": 3,
+  "source_max_age_seconds": 30,
+  "max_price_impact_bps": 150,
+  "network_fee_lamports_per_side": 3000000,
+  "execution_authority_pct": 0,
+  "live_trading_enabled": false,
+  "broadcast_enabled": false,
+  "signing": false,
+  "wallet_access": false
+}

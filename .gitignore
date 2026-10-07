@@ -1,0 +1,119 @@
+# Datenbanken — zu groß und zu volatil für Git, bleiben lokal
+*.db
+*.db-wal
+*.db-shm
+*.db.init.lock
+.imc-publish-guard-*.sentinel
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.pytest_tmp/
+.reset_test_tmp/
+
+# Node
+node_modules/
+package-lock.json.bak
+
+# Secrets / verschlüsselte Schlüssel (DPAPI ist an diesen Windows-Account gebunden,
+# ein Transfer über Git wäre ohnehin nutzlos und riskant)
+*.dpapi
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Retained local legacy Git write proxies: never used for repository writes.
+/TOOLS/GIT_WRITE_SHIM/
+/TOOLS/Git-WriteBroker.ps1
+/TOOLS/Invoke-IMC-GitWriteBroker.ps1
+/TOOLS/ASTRA_ADVISOR_SHIM/imc-git-write.cmd
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code session-local runtime state (not project content)
+.claude/
+
+# Generated state: local files stay in place; promoted models/configs stay tracked.
+/CORE/data/neural-adaptive-state-v0.4.3.json
+/RUNTIME/v425_watch_state.json
+/RUNTIME/watch_breadth_v425_shadow_status.json
+/RUNTIME/learning_settler_v460_status.json
+/RUNTIME/IMC_SYSTEM_HEALTH.json
+/RUNTIME/IMC_SYSTEM_HEALTH.lock
+/RUNTIME/WATCHDOG_V460_TRUTH_TWIN_STATUS.json
+/RESEARCH/WATCHDOG_RESEARCH_V482_STATUS.json
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/bridge_state.json
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/pure_signal_state.json
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/pure_signal_status.json
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/read_monitor_status.json
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/position_manager_status.json
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/outbox/latest_signal.json
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/outbox/signal_journal.jsonl
+/RUNTIME/work_progress.json
+/RUNTIME/work_progress.*.json
+/RUNTIME/test-runs/
+/DOCS/execution-audit.json
+/RUNTIME/signal-runtime-status.json
+/RUNTIME/signal-runtime-status.json.*.tmp
+/RUNTIME/shadow-startup-*.json
+/RUNTIME/shadow-watch-status.json
+/RUNTIME/shadow-scan-status.json
+/RUNTIME/shadow-session-observation.json
+/RUNTIME/shadow-night-readiness.json
+/RUNTIME/shadow-night-smoke.json
+/RUNTIME/gmgn-paper-status.json
+/RUNTIME/jupiter-forward-status.json
+/RUNTIME/jupiter-forward-readiness.json
+/RUNTIME/jupiter-supervisor-status.json
+/RUNTIME/jupiter-feed-status.json
+/RUNTIME/jupiter-preparation.json
+/RUNTIME/jupiter-funding-check.json
+/RUNTIME/jupiter-cost-observation.json
+/RUNTIME/jupiter-roundtrip-observation.json
+/RUNTIME/jupiter-supervisor-status.json.*.tmp
+/RUNTIME/jupiter-forward-*.stop
+/RUNTIME/jupiter-forward.stop
+/RUNTIME/core-storage-audit.json
+/RUNTIME/core-storage-allocation.json
+/RUNTIME/core-storage-quiesced.json
+/RUNTIME/core-storage-quiesced.json.*.tmp
+/RUNTIME/core-storage-copy.json
+/RUNTIME/core-storage-copy.json.*.tmp
+/RUNTIME/maintenance-state.json
+/RUNTIME/maintenance-state.json.*.tmp
+/RUNTIME/gmgn-read-cooldown.json
+/RUNTIME/gmgn-read-cooldown.*.tmp
+/RUNTIME/imc-advisor-plan-*.json
+/RUNTIME/imc-advisor-host.json
+/RUNTIME/.work_progress.*.tmp
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/fills/
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/pure_signal_journal.jsonl
+
+# Local audit tools, downloaded from their upstream source and hash-verified.
+/.local-tools/
+/.venv/
+*.egg-info/
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/*.tmp
+/RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/execution-ledger.db-journal
+RUNTIME/three-trade-shadow-acceptance.json
+RUNTIME/three-trade-preparation.json
+RUNTIME/three-trade-readiness.json
+RUNTIME/three-trade-route-observation.json
+/RUNTIME/maintenance-snapshots/
+/RUNTIME/reality-start-*.json
+/RUNTIME/reality-route-readiness.json
+/RUNTIME/reality-acceptance.json
+/RUNTIME/reality-native-*.json
+/RUNTIME/reality-bank-*.json
+/RUNTIME/reality-final-tests.xml
+/RUNTIME/reality-start-*.tmp

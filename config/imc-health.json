@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "process_timeout_seconds": 10,
+  "core_stale_seconds": 30,
+  "poll_seconds": 5,
+  "modes": {
+    "DATA_ONLY_SHADOW": {
+      "expected_roles": ["Core", "Watcher", "Health"],
+      "conflicting_roles": ["PureSignalGateway", "Bridge", "ExecutionTwin", "TwinWrapper", "SessionSupervisor", "LiveSignalGateway", "BuildGateway", "LiveCalibration", "GMGNReadBroker", "GMGNReadProbe"]
+    },
+    "PURE_SIGNAL_ONLY": {
+      "expected_roles": ["Core", "Watcher", "PureSignalGateway", "Bridge"],
+      "conflicting_roles": ["ExecutionTwin", "TwinWrapper", "SessionSupervisor", "LiveSignalGateway", "BuildGateway", "LiveCalibration"]
+    }
+  },
+  "components": {
+    "core": {"role": "Core", "database": "CORE/data/imc-main.db", "table": "snapshots"},
+    "safe100_watcher": {"role": "Watcher", "status": "RUNTIME/watch_breadth_v425_shadow_status.json", "stale_seconds": 75, "database": "RUNTIME/watch-breadth-v425-shadow.db", "table": "picks"},
+    "pure_gateway": {"role": "PureSignalGateway", "status": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/pure_signal_status.json", "stale_seconds": null},
+    "bridge": {"role": "Bridge", "status": "RUNTIME/EXECUTOR_GATEWAY/GMGN_BRIDGE/bridge_state.json", "stale_seconds": 60},
+    "runtime_watchdog": {"role": "RuntimeWatchdog", "status": "RUNTIME/WATCHDOG_V460_TRUTH_TWIN_STATUS.json", "stale_seconds": 15},
+    "safe100_execution": {"role": "ExecutionTwin", "status": "RUNTIME/real_forward_v480_build_parity_status.json", "stale_seconds": 12, "database": "RUNTIME/real-forward-v480-build-parity.db", "table": "trades"},
+    "learner": {"role": "Learner", "status": "RUNTIME/learning_settler_v460_status.json", "stale_seconds": 210},
+    "research_watchdog": {"role": "ResearchWatchdog", "status": "RESEARCH/WATCHDOG_RESEARCH_V482_STATUS.json", "stale_seconds": 15},
+    "vr12_watcher": {"role": "VR12Watcher", "status": "RESEARCH/watch_safe100_vr12_balanced_status.json", "stale_seconds": 75, "database": "RESEARCH/watch-safe100-vr12-balanced.db", "table": "picks"},
+    "dg120_watcher": {"role": "DG120Watcher", "status": "RESEARCH/watch_safe100_dg120_status.json", "stale_seconds": 75, "database": "RESEARCH/watch-safe100-dg120.db", "table": "picks"},
+    "vr12_execution": {"role": "VR12Execution", "status": "RESEARCH/execution_v483_vr12_route_forward_status.json", "stale_seconds": 12, "database": "RESEARCH/execution-v483-vr12-route-forward.db", "table": "trades"}
+  }
+}
